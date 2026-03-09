@@ -110,14 +110,6 @@ function filterSkills() {
         skills = skills.filter(skill => skill.category === currentCategory);
     }
     
-    // 按价格过滤
-    const priceFilter = document.getElementById('priceFilter').value;
-    if (priceFilter === 'free') {
-        skills = skills.filter(skill => skill.price === 0);
-    } else if (priceFilter === 'paid') {
-        skills = skills.filter(skill => skill.price > 0);
-    }
-    
     // 排序
     const sortFilter = document.getElementById('sortFilter').value;
     skills = sortSkills(skills, sortFilter);
@@ -146,8 +138,6 @@ function sortSkills(skills, sortBy) {
 // 生成技能卡片HTML
 function generateSkillCard(skill) {
     const category = skillsDatabase.categories.find(c => c.id === skill.category);
-    const priceText = skill.price === 0 ? '免费' : `¥${skill.price}`;
-    const priceClass = skill.price === 0 ? 'free' : '';
     
     // 判断徽章类型
     let badgeHTML = '';
@@ -155,8 +145,6 @@ function generateSkillCard(skill) {
         badgeHTML = '<div class="skill-badge popular">精选</div>';
     } else if (skill.native) {
         badgeHTML = '<div class="skill-badge">原生</div>';
-    } else if (skill.price > 0) {
-        badgeHTML = '<div class="skill-badge paid">付费</div>';
     }
     
     return `
@@ -175,9 +163,9 @@ function generateSkillCard(skill) {
                 <div class="skill-rating">
                     <i class="fas fa-star"></i>
                     <span>${skill.rating}</span>
-                    <span style="color: var(--text-secondary); font-size: 14px;">(${formatNumber(skill.downloads)} 次下载)</span>
+                    <span style="color: var(--text-secondary); font-size: 14px;">(${formatNumber(skill.downloads)} 次使用)</span>
                 </div>
-                <div class="skill-price ${priceClass}">${priceText}</div>
+                <div class="skill-price free">免费使用</div>
             </div>
         </div>
     `;
@@ -315,7 +303,6 @@ function showSkillDetail(skillId) {
     if (!skill) return;
     
     const category = skillsDatabase.categories.find(c => c.id === skill.category);
-    const priceText = skill.price === 0 ? '免费使用' : `¥${skill.price}`;
     
     const modalHTML = `
         <div class="skill-detail">
@@ -325,55 +312,58 @@ function showSkillDetail(skillId) {
                     <h2>${skill.name}</h2>
                     <div class="skill-detail-meta">
                         <span><i class="fas fa-star"></i> ${skill.rating}</span>
-                        <span><i class="fas fa-download"></i> ${formatNumber(skill.downloads)}</span>
+                        <span><i class="fas fa-download"></i> ${formatNumber(skill.downloads)} 次使用</span>
                         <span><i class="fas fa-folder"></i> ${category ? category.name : '未分类'}</span>
+                        <span><i class="fas fa-gift"></i> 完全免费</span>
                     </div>
                 </div>
             </div>
             
             <div class="skill-detail-section">
-                <h3>技能描述</h3>
+                <h3>📝 技能描述</h3>
                 <p>${skill.description}</p>
             </div>
             
             ${skill.native ? `
             <div class="skill-detail-section">
-                <h3>平台支持</h3>
+                <h3>🔗 平台支持</h3>
                 <p class="native-badge">${skill.native}</p>
             </div>
             ` : ''}
             
             <div class="skill-detail-section">
-                <h3>应用场景</h3>
+                <h3>💡 应用场景</h3>
                 <ul>
-                    <li>提升工作效率</li>
-                    <li>自动化重复任务</li>
-                    <li>数据分析与决策</li>
-                    <li>客户服务优化</li>
+                    <li><i class="fas fa-check"></i> 提升工作效率</li>
+                    <li><i class="fas fa-check"></i> 自动化重复任务</li>
+                    <li><i class="fas fa-check"></i> 数据分析与决策</li>
+                    <li><i class="fas fa-check"></i> 客户服务优化</li>
                 </ul>
             </div>
             
             <div class="skill-detail-section">
-                <h3>功能特性</h3>
+                <h3>⚡ 核心特性</h3>
                 <ul>
                     <li><i class="fas fa-check"></i> 智能化处理</li>
                     <li><i class="fas fa-check"></i> 易于集成</li>
                     <li><i class="fas fa-check"></i> 实时更新</li>
                     <li><i class="fas fa-check"></i> 专业支持</li>
+                    <li><i class="fas fa-check"></i> 完全免费</li>
                 </ul>
             </div>
             
             <div class="skill-detail-footer">
                 <div class="price-display">
                     <span class="price-label">价格：</span>
-                    <span class="price-value">${priceText}</span>
+                    <span class="price-value free">🎉 完全免费</span>
                 </div>
                 <div class="action-buttons">
-                    ${skill.price === 0 ? 
-                        '<button class="btn-primary" onclick="useSkill(\'' + skill.id + '\')">立即使用</button>' :
-                        '<button class="btn-primary" onclick="buySkill(\'' + skill.id + '\')">立即购买</button>'
-                    }
-                    <button class="btn-secondary">了解更多</button>
+                    <button class="btn-primary" onclick="useSkill('${skill.id}')">
+                        <i class="fas fa-rocket"></i> 立即使用
+                    </button>
+                    <button class="btn-secondary">
+                        <i class="fas fa-book"></i> 查看文档
+                    </button>
                 </div>
             </div>
         </div>
@@ -385,15 +375,33 @@ function showSkillDetail(skillId) {
 
 // 使用技能
 function useSkill(skillId) {
-    alert(`正在启动技能: ${skillId}\n\n功能开发中，敬请期待！`);
-}
-
-// 购买技能
-function buySkill(skillId) {
     const skill = skillsDatabase.skills.find(s => s.id === skillId);
     if (skill) {
-        alert(`即将购买技能: ${skill.name}\n价格: ¥${skill.price}\n\n支付功能开发中，敬请期待！`);
+        // 关闭弹窗
+        document.getElementById('skillModal').classList.remove('active');
+        
+        // 显示友好提示
+        const notification = document.createElement('div');
+        notification.className = 'notification success';
+        notification.innerHTML = `
+            <i class="fas fa-check-circle"></i>
+            <div>
+                <strong>🎉 即将启动技能：${skill.name}</strong>
+                <p style="margin: 5px 0 0 0; font-size: 14px;">功能开发中，敬请期待！</p>
+            </div>
+        `;
+        document.body.appendChild(notification);
+        
+        // 3秒后自动消失
+        setTimeout(() => {
+            notification.remove();
+        }, 3000);
     }
+}
+
+// 购买技能（已废弃，保留函数避免错误）
+function buySkill(skillId) {
+    useSkill(skillId);
 }
 
 // 平滑滚动

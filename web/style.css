@@ -826,6 +826,96 @@ body {
     color: var(--primary-color);
 }
 
+/* 通知样式 */
+.notification {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background: white;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 3000;
+    animation: slideIn 0.3s ease;
+    max-width: 400px;
+}
+
+.notification.success {
+    border-left: 4px solid var(--success-color);
+}
+
+.notification.success i {
+    color: var(--success-color);
+    font-size: 24px;
+}
+
+.notification strong {
+    color: var(--text-primary);
+    display: block;
+}
+
+.notification p {
+    color: var(--text-secondary);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Hero CTA按钮 */
+.hero-cta {
+    margin-top: 40px;
+}
+
+.btn-primary-large {
+    padding: 18px 40px;
+    background: white;
+    color: var(--primary-color);
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary-large:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.btn-primary-large i {
+    font-size: 20px;
+}
+
+/* 价格显示优化 */
+.skill-price.free {
+    background: var(--success-color);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.price-value.free {
+    color: var(--success-color);
+    font-size: 28px;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
     .header-content {

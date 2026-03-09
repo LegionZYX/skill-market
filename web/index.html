@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenClaw Skill Market - 最优质的AI技能市场</title>
+    <title>OpenClaw Skill Market - 300+ AI技能免费使用</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -25,13 +25,11 @@
                 <nav class="nav-menu">
                     <a href="#featured" class="active">精选推荐</a>
                     <a href="#categories">全部分类</a>
-                    <a href="#pricing">定价方案</a>
                     <a href="#about">关于我们</a>
                 </nav>
                 
                 <div class="user-actions">
-                    <button class="btn-login">登录</button>
-                    <button class="btn-signup">注册</button>
+                    <button class="btn-signup">免费使用</button>
                 </div>
             </div>
         </div>
@@ -40,8 +38,8 @@
     <!-- Hero 区域 -->
     <section class="hero">
         <div class="container">
-            <h1>发现最优质的 AI 技能</h1>
-            <p class="hero-subtitle">300+ 精选技能，30个分类，助力您的业务增长</p>
+            <h1>🚀 300+ AI技能，完全免费使用</h1>
+            <p class="hero-subtitle">OpenClaw Skill Market - 最优质的AI技能市场，助力您的业务增长</p>
             
             <div class="hero-stats">
                 <div class="stat-item">
@@ -60,6 +58,12 @@
                     <div class="stat-number">4.8</div>
                     <div class="stat-label">平均评分</div>
                 </div>
+            </div>
+            
+            <div class="hero-cta">
+                <button class="btn-primary-large" onclick="document.getElementById('skillsList').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-rocket"></i> 立即探索所有技能
+                </button>
             </div>
         </div>
     </section>
@@ -92,7 +96,7 @@
         <div class="container">
             <h2 class="section-title">
                 <i class="fas fa-th-large"></i>
-                全部分类
+                全部分类（30个）
             </h2>
             
             <div class="category-grid" id="categoryGrid">
@@ -115,14 +119,6 @@
                         <option value="popular">最热门</option>
                         <option value="newest">最新发布</option>
                         <option value="rating">评分最高</option>
-                        <option value="price-low">价格从低到高</option>
-                        <option value="price-high">价格从高到低</option>
-                    </select>
-                    
-                    <select id="priceFilter">
-                        <option value="all">全部价格</option>
-                        <option value="free">免费</option>
-                        <option value="paid">付费</option>
                     </select>
                 </div>
             </div>
@@ -133,64 +129,6 @@
             
             <div class="load-more">
                 <button class="btn-load-more" id="loadMoreBtn">加载更多</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- 定价方案 -->
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <h2 class="section-title">
-                <i class="fas fa-tags"></i>
-                定价方案
-            </h2>
-            
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>免费版</h3>
-                        <div class="price">¥0<span>/月</span></div>
-                    </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 5个基础技能</li>
-                        <li><i class="fas fa-check"></i> 每月1000次调用</li>
-                        <li><i class="fas fa-check"></i> 社区支持</li>
-                        <li><i class="fas fa-check"></i> 基础文档</li>
-                    </ul>
-                    <button class="btn-pricing">开始使用</button>
-                </div>
-                
-                <div class="pricing-card popular">
-                    <div class="popular-badge">最受欢迎</div>
-                    <div class="pricing-header">
-                        <h3>专业版</h3>
-                        <div class="price">¥299<span>/月</span></div>
-                    </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 50个高级技能</li>
-                        <li><i class="fas fa-check"></i> 每月50000次调用</li>
-                        <li><i class="fas fa-check"></i> 优先技术支持</li>
-                        <li><i class="fas fa-check"></i> 完整文档</li>
-                        <li><i class="fas fa-check"></i> API访问</li>
-                    </ul>
-                    <button class="btn-pricing">立即订阅</button>
-                </div>
-                
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>企业版</h3>
-                        <div class="price">¥999<span>/月</span></div>
-                    </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 全部300+技能</li>
-                        <li><i class="fas fa-check"></i> 无限次调用</li>
-                        <li><i class="fas fa-check"></i> 专属客户经理</li>
-                        <li><i class="fas fa-check"></i> 定制开发</li>
-                        <li><i class="fas fa-check"></i> 私有化部署</li>
-                        <li><i class="fas fa-check"></i> SLA保障</li>
-                    </ul>
-                    <button class="btn-pricing">联系销售</button>
-                </div>
             </div>
         </div>
     </section>
@@ -206,9 +144,14 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>OpenClaw Skill Market 是中国领先的AI技能市场，汇集了300+优质技能，覆盖30个业务分类。</p>
-                    <p>我们的使命是让每个企业都能轻松使用AI技术，提升效率，降低成本。</p>
+                    <p><strong>🎉 所有技能完全免费使用！</strong>我们的使命是让每个企业都能轻松使用AI技术，提升效率，降低成本。</p>
                     
                     <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-gift"></i>
+                            <h4>完全免费</h4>
+                            <p>所有技能免费使用</p>
+                        </div>
                         <div class="feature-item">
                             <i class="fas fa-shield-alt"></i>
                             <h4>质量保证</h4>
@@ -224,11 +167,6 @@
                             <h4>持续更新</h4>
                             <p>每周新增优质技能</p>
                         </div>
-                        <div class="feature-item">
-                            <i class="fas fa-lock"></i>
-                            <h4>数据安全</h4>
-                            <p>企业级安全保障</p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -242,7 +180,6 @@
                 <div class="footer-section">
                     <h4>产品</h4>
                     <a href="#">技能市场</a>
-                    <a href="#">定价方案</a>
                     <a href="#">API文档</a>
                     <a href="#">更新日志</a>
                 </div>
