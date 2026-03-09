@@ -1,0 +1,166 @@
+{
+  "version": "4.0.0",
+  "lastUpdated": "2026-03-09",
+  "description": "技能安装代码 - 重定向版本（通过内部链接跳转）",
+  "installMethod": "redirect",
+  "baseUrl": "https://legionzyx.github.io/skill-market/install",
+  "skills": [
+    {
+      "id": "lark-calendar",
+      "name": "飞书日程管理",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/lark-calendar",
+      "internalCode": "SKILL-001-FC",
+      "category": "office"
+    },
+    {
+      "id": "dingtalk-attendance",
+      "name": "钉钉考勤统计",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/dingtalk-attendance",
+      "internalCode": "SKILL-002-DT",
+      "category": "office"
+    },
+    {
+      "id": "meeting-notes",
+      "name": "会议纪要助手",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/meeting-notes",
+      "internalCode": "SKILL-003-MN",
+      "category": "office"
+    },
+    {
+      "id": "smart-customer-service",
+      "name": "智能客服",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/smart-customer-service",
+      "internalCode": "SKILL-004-SC",
+      "category": "service"
+    },
+    {
+      "id": "content-creator",
+      "name": "内容创作助手",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/content-creator",
+      "internalCode": "SKILL-005-CC",
+      "category": "marketing"
+    },
+    {
+      "id": "report-generator",
+      "name": "报表生成器",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/report-generator",
+      "internalCode": "SKILL-006-RG",
+      "category": "data"
+    },
+    {
+      "id": "wechat-mp-manager",
+      "name": "公众号管理",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/wechat-mp-manager",
+      "internalCode": "SKILL-007-WM",
+      "category": "marketing"
+    },
+    {
+      "id": "douyin-ecommerce",
+      "name": "抖音电商运营",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/douyin-ecommerce",
+      "internalCode": "SKILL-008-DE",
+      "category": "ecommerce"
+    },
+    {
+      "id": "taobao-product-manager",
+      "name": "淘宝商品管理",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/taobao-product-manager",
+      "internalCode": "SKILL-009-TP",
+      "category": "ecommerce"
+    },
+    {
+      "id": "inventory-manager",
+      "name": "库存管理系统",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/inventory-manager",
+      "internalCode": "SKILL-010-IM",
+      "category": "ecommerce"
+    },
+    {
+      "id": "ai-model-comparison",
+      "name": "AI模型对比",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/ai-model-comparison",
+      "internalCode": "SKILL-011-AM",
+      "category": "tech-blogger"
+    },
+    {
+      "id": "ai-tool-review",
+      "name": "AI工具测评",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/ai-tool-review",
+      "internalCode": "SKILL-012-AT",
+      "category": "tech-blogger"
+    },
+    {
+      "id": "email-assistant",
+      "name": "邮件助手",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/email-assistant",
+      "internalCode": "SKILL-013-EA",
+      "category": "office"
+    },
+    {
+      "id": "resume-screener",
+      "name": "简历筛选",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/resume-screener",
+      "internalCode": "SKILL-014-RS",
+      "category": "hr"
+    },
+    {
+      "id": "invoice-ocr",
+      "name": "发票识别",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/invoice-ocr",
+      "internalCode": "SKILL-015-IO",
+      "category": "finance"
+    },
+    {
+      "id": "code-reviewer",
+      "name": "代码审查",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/code-reviewer",
+      "internalCode": "SKILL-016-CR",
+      "category": "devops"
+    },
+    {
+      "id": "contract-reviewer",
+      "name": "合同审查",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/contract-reviewer",
+      "internalCode": "SKILL-017-CO",
+      "category": "legal"
+    },
+    {
+      "id": "personal-calendar",
+      "name": "个人日程管理",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/personal-calendar",
+      "internalCode": "SKILL-018-PC",
+      "category": "personal"
+    },
+    {
+      "id": "translator",
+      "name": "翻译助手",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/translator",
+      "internalCode": "SKILL-019-TR",
+      "category": "personal"
+    },
+    {
+      "id": "data-visualization",
+      "name": "数据可视化",
+      "installUrl": "https://legionzyx.github.io/skill-market/install/data-visualization",
+      "internalCode": "SKILL-020-DV",
+      "category": "data"
+    }
+  ],
+  "redirectLogic": {
+    "description": "用户访问内部链接后，服务器会重定向到真实的安装地址",
+    "benefits": [
+      "隐藏真实的GitHub仓库地址",
+      "可以统计安装次数",
+      "可以控制访问权限",
+      "可以随时更改真实地址而不影响用户"
+    ]
+  },
+  "usage": {
+    "userFlow": [
+      "1. 用户点击安装按钮",
+      "2. 跳转到内部链接（如 /install/lark-calendar）",
+      "3. 服务器记录并重定向到真实安装命令",
+      "4. 用户获得安装代码"
+    ]
+  }
+}

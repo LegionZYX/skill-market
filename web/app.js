@@ -358,8 +358,8 @@ function showSkillDetail(skillId) {
                     <span class="price-value free">🎉 完全免费</span>
                 </div>
                 <div class="action-buttons">
-                    <button class="btn-primary" onclick="useSkill('${skill.id}')">
-                        <i class="fas fa-rocket"></i> 立即使用
+                    <button class="btn-primary" onclick="showInstallCode('${skill.id}')">
+                        <i class="fas fa-download"></i> 安装技能
                     </button>
                     <button class="btn-secondary">
                         <i class="fas fa-book"></i> 查看文档
@@ -377,26 +377,59 @@ function showSkillDetail(skillId) {
 function useSkill(skillId) {
     const skill = skillsDatabase.skills.find(s => s.id === skillId);
     if (skill) {
-        // 关闭弹窗
-        document.getElementById('skillModal').classList.remove('active');
+        // 显示安装代码
+        const installCode = `npx openclaw-skills@latest install ${skillId}`;
         
-        // 显示友好提示
+        // 更新弹窗内容
+        const detailContainer = document.getElementById('skillDetail');
+        const currentContent = detailContainer.innerHTML;
+        
+        // 在底部添加安装代码
+        const installSection = `
+            <div class="skill-detail-section" style="background: var(--light-color); padding: 20px; border-radius: 12px; margin-top: 20px;">
+                <h3 style="margin-bottom: 15px;">📦 安装代码</h3>
+                <div style="background: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 8px; font-family: 'Courier New', monospace; position: relative;">
+                    <code style="font-size: 14px; display: block;">${installCode}</code>
+                    <button onclick="copyInstallCode('${installCode}')" style="position: absolute; top: 10px; right: 10px; background: var(--primary-color); color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 13px;">
+                        <i class="fas fa-copy"></i> 复制
+                    </button>
+                </div>
+                <p style="margin-top: 12px; color: var(--text-secondary); font-size: 14px;">
+                    <i class="fas fa-info-circle"></i> 
+                    在终端运行此命令即可安装技能
+                </p>
+            </div>
+        `;
+        
+        // 插入到footer之前
+        const footerIndex = currentContent.indexOf('<div class="skill-detail-footer">');
+        if (footerIndex > 0) {
+            detailContainer.innerHTML = currentContent.slice(0, footerIndex) + installSection + currentContent.slice(footerIndex);
+        }
+    }
+}
+
+// 复制安装代码
+function copyInstallCode(code) {
+    navigator.clipboard.writeText(code).then(() => {
+        // 显示成功提示
         const notification = document.createElement('div');
         notification.className = 'notification success';
         notification.innerHTML = `
             <i class="fas fa-check-circle"></i>
             <div>
-                <strong>🎉 即将启动技能：${skill.name}</strong>
-                <p style="margin: 5px 0 0 0; font-size: 14px;">功能开发中，敬请期待！</p>
+                <strong>✅ 已复制到剪贴板</strong>
+                <p style="margin: 5px 0 0 0; font-size: 14px;">粘贴到终端即可安装</p>
             </div>
         `;
         document.body.appendChild(notification);
         
-        // 3秒后自动消失
         setTimeout(() => {
             notification.remove();
-        }, 3000);
-    }
+        }, 2000);
+    }).catch(err => {
+        alert('复制失败，请手动复制：\n' + code);
+    });
 }
 
 // 购买技能（已废弃，保留函数避免错误）

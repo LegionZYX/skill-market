@@ -1,0 +1,157 @@
+{
+  "version": "4.0.0",
+  "lastUpdated": "2026-03-09",
+  "description": "技能安装代码 - 直接版本（显示真实安装命令）",
+  "installMethod": "direct",
+  "skills": [
+    {
+      "id": "lark-calendar",
+      "name": "飞书日程管理",
+      "installCommand": "npx openclaw-skills@latest install lark-calendar",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/office/lark-calendar",
+      "category": "office"
+    },
+    {
+      "id": "dingtalk-attendance",
+      "name": "钉钉考勤统计",
+      "installCommand": "npx openclaw-skills@latest install dingtalk-attendance",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/office/dingtalk-attendance",
+      "category": "office"
+    },
+    {
+      "id": "meeting-notes",
+      "name": "会议纪要助手",
+      "installCommand": "npx openclaw-skills@latest install meeting-notes",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/office/meeting-notes",
+      "category": "office"
+    },
+    {
+      "id": "smart-customer-service",
+      "name": "智能客服",
+      "installCommand": "npx openclaw-skills@latest install smart-customer-service",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/service/smart-customer-service",
+      "category": "service"
+    },
+    {
+      "id": "content-creator",
+      "name": "内容创作助手",
+      "installCommand": "npx openclaw-skills@latest install content-creator",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/marketing/content-creator",
+      "category": "marketing"
+    },
+    {
+      "id": "report-generator",
+      "name": "报表生成器",
+      "installCommand": "npx openclaw-skills@latest install report-generator",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/data/report-generator",
+      "category": "data"
+    },
+    {
+      "id": "wechat-mp-manager",
+      "name": "公众号管理",
+      "installCommand": "npx openclaw-skills@latest install wechat-mp-manager",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/marketing/wechat-mp-manager",
+      "category": "marketing"
+    },
+    {
+      "id": "douyin-ecommerce",
+      "name": "抖音电商运营",
+      "installCommand": "npx openclaw-skills@latest install douyin-ecommerce",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/ecommerce/douyin-ecommerce",
+      "category": "ecommerce"
+    },
+    {
+      "id": "taobao-product-manager",
+      "name": "淘宝商品管理",
+      "installCommand": "npx openclaw-skills@latest install taobao-product-manager",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/ecommerce/taobao-product-manager",
+      "category": "ecommerce"
+    },
+    {
+      "id": "inventory-manager",
+      "name": "库存管理系统",
+      "installCommand": "npx openclaw-skills@latest install inventory-manager",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/ecommerce/inventory-manager",
+      "category": "ecommerce"
+    },
+    {
+      "id": "ai-model-comparison",
+      "name": "AI模型对比",
+      "installCommand": "npx openclaw-skills@latest install ai-model-comparison",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/tech-blogger/ai-model-comparison",
+      "category": "tech-blogger"
+    },
+    {
+      "id": "ai-tool-review",
+      "name": "AI工具测评",
+      "installCommand": "npx openclaw-skills@latest install ai-tool-review",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/tech-blogger/ai-tool-review",
+      "category": "tech-blogger"
+    },
+    {
+      "id": "email-assistant",
+      "name": "邮件助手",
+      "installCommand": "npx openclaw-skills@latest install email-assistant",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/office/email-assistant",
+      "category": "office"
+    },
+    {
+      "id": "resume-screener",
+      "name": "简历筛选",
+      "installCommand": "npx openclaw-skills@latest install resume-screener",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/hr/resume-screener",
+      "category": "hr"
+    },
+    {
+      "id": "invoice-ocr",
+      "name": "发票识别",
+      "installCommand": "npx openclaw-skills@latest install invoice-ocr",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/finance/invoice-ocr",
+      "category": "finance"
+    },
+    {
+      "id": "code-reviewer",
+      "name": "代码审查",
+      "installCommand": "npx openclaw-skills@latest install code-reviewer",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/devops/code-reviewer",
+      "category": "devops"
+    },
+    {
+      "id": "contract-reviewer",
+      "name": "合同审查",
+      "installCommand": "npx openclaw-skills@latest install contract-reviewer",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/legal/contract-reviewer",
+      "category": "legal"
+    },
+    {
+      "id": "personal-calendar",
+      "name": "个人日程管理",
+      "installCommand": "npx openclaw-skills@latest install personal-calendar",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/personal/personal-calendar",
+      "category": "personal"
+    },
+    {
+      "id": "translator",
+      "name": "翻译助手",
+      "installCommand": "npx openclaw-skills@latest install translator",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/personal/translator",
+      "category": "personal"
+    },
+    {
+      "id": "data-visualization",
+      "name": "数据可视化",
+      "installCommand": "npx openclaw-skills@latest install data-visualization",
+      "githubUrl": "https://github.com/openclaw/skills/tree/main/data/data-visualization",
+      "category": "data"
+    }
+  ],
+  "usage": {
+    "prerequisites": "Node.js 18+ 和 npm/pnpm/bun",
+    "commands": {
+      "npm": "npx openclaw-skills@latest install <skill-id>",
+      "pnpm": "pnpx openclaw-skills@latest install <skill-id>",
+      "bun": "bunx openclaw-skills@latest install <skill-id>"
+    },
+    "example": "npx openclaw-skills@latest install lark-calendar"
+  }
+}
