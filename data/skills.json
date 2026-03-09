@@ -1,0 +1,477 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-09",
+  "maintainer": "OpenClaw Community",
+  "skills": [
+    {
+      "id": "lark-calendar",
+      "name": "飞书日程管理",
+      "category": "office",
+      "subcategory": "calendar",
+      "description": "管理飞书日历、日程安排、会议预约",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["飞书", "日程", "会议", "热门"],
+      "priority": "P0",
+      "platforms": ["飞书"],
+      "requirements": {
+        "apis": ["飞书开放平台"],
+        "dependencies": []
+      },
+      "useCases": [
+        "查询日程安排",
+        "创建会议邀请",
+        "日程冲突检测",
+        "自动提醒"
+      ],
+      "installCommand": "openclaw skill install lark-calendar",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/office/lark-calendar",
+      "rating": 4.8,
+      "downloads": 15000,
+      "status": "stable"
+    },
+    {
+      "id": "dingtalk-attendance",
+      "name": "钉钉考勤统计",
+      "category": "office",
+      "subcategory": "attendance",
+      "description": "自动统计钉钉考勤数据,生成报表",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["钉钉", "考勤", "HR", "热门"],
+      "priority": "P0",
+      "platforms": ["钉钉"],
+      "requirements": {
+        "apis": ["钉钉开放平台"],
+        "dependencies": []
+      },
+      "useCases": [
+        "每日考勤统计",
+        "迟到早退分析",
+        "加班时长计算",
+        "月度考勤报表"
+      ],
+      "installCommand": "openclaw skill install dingtalk-attendance",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/office/dingtalk-attendance",
+      "rating": 4.7,
+      "downloads": 12000,
+      "status": "stable"
+    },
+    {
+      "id": "taobao-product-manager",
+      "name": "淘宝商品管理",
+      "category": "ecommerce",
+      "subcategory": "product",
+      "description": "淘宝商品上架、编辑、优化",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["淘宝", "电商", "商品管理", "热门"],
+      "priority": "P0",
+      "platforms": ["淘宝", "天猫"],
+      "requirements": {
+        "apis": ["淘宝开放平台"],
+        "dependencies": []
+      },
+      "useCases": [
+        "批量商品上架",
+        "商品标题优化",
+        "价格监控",
+        "库存同步"
+      ],
+      "installCommand": "openclaw skill install taobao-product-manager",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/ecommerce/taobao-product-manager",
+      "rating": 4.6,
+      "downloads": 8500,
+      "status": "stable"
+    },
+    {
+      "id": "jd-order-processor",
+      "name": "京东订单处理",
+      "category": "ecommerce",
+      "subcategory": "order",
+      "description": "自动处理京东订单,物流跟踪",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["京东", "订单", "物流"],
+      "priority": "P1",
+      "platforms": ["京东"],
+      "requirements": {
+        "apis": ["京东开放平台"],
+        "dependencies": []
+      },
+      "useCases": [
+        "订单自动处理",
+        "物流信息查询",
+        "异常订单预警",
+        "退换货处理"
+      ],
+      "installCommand": "openclaw skill install jd-order-processor",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/ecommerce/jd-order-processor",
+      "rating": 4.5,
+      "downloads": 6200,
+      "status": "stable"
+    },
+    {
+      "id": "smart-customer-service",
+      "name": "智能客服",
+      "category": "service",
+      "subcategory": "chatbot",
+      "description": "基于AI的智能客服对话系统",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["客服", "AI", "对话", "热门"],
+      "priority": "P0",
+      "platforms": ["通用"],
+      "requirements": {
+        "apis": ["LLM API"],
+        "dependencies": []
+      },
+      "useCases": [
+        "自动回复客户咨询",
+        "意图识别",
+        "多轮对话",
+        "转人工判断"
+      ],
+      "installCommand": "openclaw skill install smart-customer-service",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/service/smart-customer-service",
+      "rating": 4.9,
+      "downloads": 20000,
+      "status": "stable"
+    },
+    {
+      "id": "report-generator",
+      "name": "报表生成器",
+      "category": "data",
+      "subcategory": "report",
+      "description": "自动生成业务报表,支持多种格式",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["报表", "数据", "可视化", "热门"],
+      "priority": "P0",
+      "platforms": ["通用"],
+      "requirements": {
+        "apis": [],
+        "dependencies": ["matplotlib", "pandas"]
+      },
+      "useCases": [
+        "销售报表生成",
+        "财务报表",
+        "周报月报",
+        "数据可视化"
+      ],
+      "installCommand": "openclaw skill install report-generator",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/data/report-generator",
+      "rating": 4.7,
+      "downloads": 18000,
+      "status": "stable"
+    },
+    {
+      "id": "wechat-mp-manager",
+      "name": "公众号管理",
+      "category": "marketing",
+      "subcategory": "social",
+      "description": "微信公众号内容管理和数据分析",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["微信", "公众号", "营销", "热门"],
+      "priority": "P0",
+      "platforms": ["微信公众号"],
+      "requirements": {
+        "apis": ["微信公众平台"],
+        "dependencies": []
+      },
+      "useCases": [
+        "文章排版",
+        "素材管理",
+        "用户分析",
+        "自动回复设置"
+      ],
+      "installCommand": "openclaw skill install wechat-mp-manager",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/marketing/wechat-mp-manager",
+      "rating": 4.6,
+      "downloads": 14000,
+      "status": "stable"
+    },
+    {
+      "id": "content-creator",
+      "name": "内容创作助手",
+      "category": "marketing",
+      "subcategory": "content",
+      "description": "AI辅助内容创作,支持多种文体",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["内容", "创作", "AI", "热门"],
+      "priority": "P0",
+      "platforms": ["通用"],
+      "requirements": {
+        "apis": ["LLM API"],
+        "dependencies": []
+      },
+      "useCases": [
+        "营销文案生成",
+        "新闻稿撰写",
+        "社交媒体内容",
+        "产品描述优化"
+      ],
+      "installCommand": "openclaw skill install content-creator",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/marketing/content-creator",
+      "rating": 4.8,
+      "downloads": 22000,
+      "status": "stable"
+    },
+    {
+      "id": "resume-screener",
+      "name": "简历筛选",
+      "category": "hr",
+      "subcategory": "recruitment",
+      "description": "自动筛选简历,匹配岗位需求",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["HR", "招聘", "简历", "热门"],
+      "priority": "P1",
+      "platforms": ["通用"],
+      "requirements": {
+        "apis": ["LLM API"],
+        "dependencies": []
+      },
+      "useCases": [
+        "简历关键词匹配",
+        "技能评估",
+        "学历验证",
+        "推荐排序"
+      ],
+      "installCommand": "openclaw skill install resume-screener",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/hr/resume-screener",
+      "rating": 4.5,
+      "downloads": 7500,
+      "status": "stable"
+    },
+    {
+      "id": "invoice-ocr",
+      "name": "发票识别",
+      "category": "finance",
+      "subcategory": "invoice",
+      "description": "OCR识别发票信息,自动录入",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["财务", "发票", "OCR", "热门"],
+      "priority": "P0",
+      "platforms": ["通用"],
+      "requirements": {
+        "apis": ["OCR API"],
+        "dependencies": []
+      },
+      "useCases": [
+        "发票信息提取",
+        "真伪验证",
+        "报销流程",
+        "税务申报"
+      ],
+      "installCommand": "openclaw skill install invoice-ocr",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/finance/invoice-ocr",
+      "rating": 4.7,
+      "downloads": 16000,
+      "status": "stable"
+    },
+    {
+      "id": "code-reviewer",
+      "name": "代码审查",
+      "category": "devops",
+      "subcategory": "code",
+      "description": "AI辅助代码审查,发现潜在问题",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["开发", "代码", "审查", "热门"],
+      "priority": "P0",
+      "platforms": ["通用"],
+      "requirements": {
+        "apis": ["LLM API"],
+        "dependencies": []
+      },
+      "useCases": [
+        "代码质量检查",
+        "安全漏洞扫描",
+        "性能优化建议",
+        "代码规范检查"
+      ],
+      "installCommand": "openclaw skill install code-reviewer",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/devops/code-reviewer",
+      "rating": 4.8,
+      "downloads": 25000,
+      "status": "stable"
+    },
+    {
+      "id": "contract-reviewer",
+      "name": "合同审查",
+      "category": "legal",
+      "subcategory": "contract",
+      "description": "智能合同审查,风险提示",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["法务", "合同", "风险", "热门"],
+      "priority": "P1",
+      "platforms": ["通用"],
+      "requirements": {
+        "apis": ["LLM API"],
+        "dependencies": []
+      },
+      "useCases": [
+        "合同条款分析",
+        "风险点识别",
+        "合规性检查",
+        "修改建议"
+      ],
+      "installCommand": "openclaw skill install contract-reviewer",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/legal/contract-reviewer",
+      "rating": 4.6,
+      "downloads": 5000,
+      "status": "stable"
+    },
+    {
+      "id": "ecommerce-analytics",
+      "name": "电商数据分析",
+      "category": "ecommerce",
+      "subcategory": "analytics",
+      "description": "电商数据分析和可视化",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["电商", "数据", "分析"],
+      "priority": "P1",
+      "platforms": ["淘宝", "京东", "拼多多"],
+      "requirements": {
+        "apis": ["各平台开放API"],
+        "dependencies": ["pandas", "plotly"]
+      },
+      "useCases": [
+        "销售趋势分析",
+        "商品表现评估",
+        "用户画像",
+        "竞品对比"
+      ],
+      "installCommand": "openclaw skill install ecommerce-analytics",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/ecommerce/ecommerce-analytics",
+      "rating": 4.5,
+      "downloads": 9000,
+      "status": "stable"
+    },
+    {
+      "id": "ci-pipeline",
+      "name": "CI流水线",
+      "category": "devops",
+      "subcategory": "automation",
+      "description": "CI/CD流水线配置和管理",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["CI/CD", "自动化", "DevOps"],
+      "priority": "P1",
+      "platforms": ["Jenkins", "GitLab CI", "GitHub Actions"],
+      "requirements": {
+        "apis": [],
+        "dependencies": []
+      },
+      "useCases": [
+        "流水线配置",
+        "构建监控",
+        "部署自动化",
+        "回滚管理"
+      ],
+      "installCommand": "openclaw skill install ci-pipeline",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/devops/ci-pipeline",
+      "rating": 4.4,
+      "downloads": 7000,
+      "status": "stable"
+    },
+    {
+      "id": "ad-optimizer",
+      "name": "广告优化",
+      "category": "marketing",
+      "subcategory": "advertising",
+      "description": "广告投放优化和ROI分析",
+      "version": "1.0.0",
+      "author": "OpenClaw",
+      "tags": ["广告", "营销", "ROI"],
+      "priority": "P1",
+      "platforms": ["百度", "腾讯", "字节跳动"],
+      "requirements": {
+        "apis": ["各广告平台API"],
+        "dependencies": []
+      },
+      "useCases": [
+        "广告效果分析",
+        "预算优化",
+        "受众定向",
+        "A/B测试"
+      ],
+      "installCommand": "openclaw skill install ad-optimizer",
+      "repoUrl": "https://github.com/openclaw/skills/tree/main/marketing/ad-optimizer",
+      "rating": 4.3,
+      "downloads": 5500,
+      "status": "stable"
+    }
+  ],
+  "categories": [
+    {
+      "id": "office",
+      "name": "办公协作",
+      "description": "企业办公和团队协作",
+      "icon": "🏢",
+      "skillCount": 0
+    },
+    {
+      "id": "ecommerce",
+      "name": "电商运营",
+      "description": "电商平台运营管理",
+      "icon": "🛒",
+      "skillCount": 0
+    },
+    {
+      "id": "service",
+      "name": "客户服务",
+      "description": "客户服务和支持",
+      "icon": "💬",
+      "skillCount": 0
+    },
+    {
+      "id": "data",
+      "name": "数据分析",
+      "description": "数据分析和报表",
+      "icon": "📊",
+      "skillCount": 0
+    },
+    {
+      "id": "marketing",
+      "name": "营销推广",
+      "description": "市场营销和推广",
+      "icon": "📢",
+      "skillCount": 0
+    },
+    {
+      "id": "hr",
+      "name": "人力资源",
+      "description": "人力资源管理",
+      "icon": "👥",
+      "skillCount": 0
+    },
+    {
+      "id": "finance",
+      "name": "财务管理",
+      "description": "财务和会计",
+      "icon": "💰",
+      "skillCount": 0
+    },
+    {
+      "id": "devops",
+      "name": "开发运维",
+      "description": "开发和运维",
+      "icon": "⚙️",
+      "skillCount": 0
+    },
+    {
+      "id": "legal",
+      "name": "法务合规",
+      "description": "法律和合规",
+      "icon": "⚖️",
+      "skillCount": 0
+    }
+  ]
+}

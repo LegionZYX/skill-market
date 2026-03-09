@@ -1,0 +1,381 @@
+{
+  "version": "3.2.0",
+  "lastUpdated": "2026-03-09",
+  "description": "完整版技能清单 - 15个分类，85+技能",
+  "skills": [
+    # ==================== 核心企业技能 (P0) ====================
+    {
+      "id": "lark-calendar",
+      "name": "飞书日程管理",
+      "description": "管理飞书日历、日程安排、会议预约",
+      "category": "办公协作",
+      "native": "飞书原生",
+      "useCases": ["查询日程安排", "创建会议邀请", "日程冲突检测", "自动提醒"]
+    },
+    {
+      "id": "dingtalk-attendance",
+      "name": "钉钉考勤统计",
+      "description": "自动统计钉钉考勤数据,生成报表",
+      "category": "办公协作",
+      "useCases": ["每日考勤统计", "迟到早退分析", "加班时长计算", "月度考勤报表"]
+    },
+    {
+      "id": "meeting-notes",
+      "name": "会议纪要助手",
+      "description": "自动生成会议纪要和待办事项",
+      "category": "办公协作",
+      "native": "飞书妙记",
+      "useCases": ["会议录音转文字", "关键信息提取", "待办事项生成", "会议总结"]
+    },
+    {
+      "id": "lark-contacts",
+      "name": "飞书通讯录",
+      "description": "管理飞书通讯录和群组",
+      "category": "办公协作",
+      "native": "飞书原生",
+      "useCases": ["通讯录查询", "群组管理", "成员标签", "组织架构"]
+    },
+    {
+      "id": "taobao-product-manager",
+      "name": "淘宝商品管理",
+      "description": "淘宝商品上架、编辑、优化",
+      "category": "电商运营",
+      "useCases": ["批量商品上架", "商品标题优化", "价格监控", "库存同步"]
+    },
+    {
+      "id": "douyin-ecommerce",
+      "name": "抖音电商运营",
+      "description": "抖音电商商品和直播管理",
+      "category": "电商运营",
+      "useCases": ["商品橱窗管理", "直播商品上架", "直播数据监控", "短视频带货分析"]
+    },
+    {
+      "id": "inventory-manager",
+      "name": "库存管理系统",
+      "description": "多平台库存同步和预警",
+      "category": "电商运营",
+      "useCases": ["库存同步", "库存预警", "补货建议", "库存周转分析"]
+    },
+    {
+      "id": "smart-customer-service",
+      "name": "智能客服",
+      "description": "基于AI的智能客服对话系统",
+      "category": "客户服务",
+      "useCases": ["自动回复客户咨询", "意图识别", "多轮对话", "转人工判断"]
+    },
+    {
+      "id": "ticket-manager",
+      "name": "工单管理系统",
+      "description": "客户工单创建、分配、跟踪",
+      "category": "客户服务",
+      "useCases": ["工单创建", "自动分配", "进度跟踪", "SLA监控"]
+    },
+    {
+      "id": "report-generator",
+      "name": "报表生成器",
+      "description": "自动生成业务报表,支持多种格式",
+      "category": "数据分析",
+      "useCases": ["销售报表生成", "财务报表", "周报月报", "数据可视化"]
+    },
+    {
+      "id": "wechat-mp-manager",
+      "name": "公众号管理",
+      "description": "微信公众号内容管理和数据分析",
+      "category": "营销推广",
+      "useCases": ["文章排版", "素材管理", "用户分析", "自动回复设置"]
+    },
+    {
+      "id": "content-creator",
+      "name": "内容创作助手",
+      "description": "AI辅助内容创作,支持多种文体",
+      "category": "内容产出",
+      "useCases": ["营销文案生成", "新闻稿撰写", "社交媒体内容", "产品描述优化"]
+    },
+    {
+      "id": "resume-screener",
+      "name": "简历筛选",
+      "description": "自动筛选简历,匹配岗位需求",
+      "category": "人力资源",
+      "useCases": ["简历关键词匹配", "技能评估", "学历验证", "推荐排序"]
+    },
+    {
+      "id": "invoice-ocr",
+      "name": "发票识别",
+      "description": "OCR识别发票信息,自动录入",
+      "category": "财务管理",
+      "useCases": ["发票信息提取", "真伪验证", "报销流程", "税务申报"]
+    },
+    {
+      "id": "code-reviewer",
+      "name": "代码审查",
+      "description": "AI辅助代码审查,发现潜在问题",
+      "category": "开发运维",
+      "useCases": ["代码质量检查", "安全漏洞扫描", "性能优化建议", "代码规范检查"]
+    },
+    {
+      "id": "personal-calendar",
+      "name": "个人日程管理",
+      "description": "个人日程安排和提醒",
+      "category": "个人助理",
+      "useCases": ["日程安排", "提醒设置", "待办清单", "时间统计"]
+    },
+    {
+      "id": "translator",
+      "name": "翻译助手",
+      "description": "多语言翻译和润色",
+      "category": "国际化",
+      "useCases": ["文本翻译", "文档翻译", "语音翻译", "润色优化"]
+    },
+    {
+      "id": "contract-reviewer",
+      "name": "合同审查",
+      "description": "智能合同审查,风险提示",
+      "category": "法务合规",
+      "useCases": ["合同条款分析", "风险点识别", "合规性检查", "修改建议"]
+    },
+
+    # ==================== 内容产出 (新增) ====================
+    {
+      "id": "content-writing",
+      "name": "文案写作",
+      "description": "营销文案、广告语、slogan创作",
+      "category": "内容产出",
+      "useCases": ["广告文案", "品牌slogan", "产品描述", "营销策划"]
+    },
+    {
+      "id": "article-writer",
+      "name": "文章创作",
+      "description": "长文章、博客、新闻稿写作",
+      "category": "内容产出",
+      "useCases": ["博客文章", "新闻稿", "深度报道", "专题文章"]
+    },
+    {
+      "id": "copywriting-optimizer",
+      "name": "文案优化",
+      "description": "文案润色、改写、优化",
+      "category": "内容产出",
+      "useCases": ["文案润色", "风格调整", "语气优化", "AB测试"]
+    },
+    {
+      "id": "script-writer",
+      "name": "脚本创作",
+      "description": "视频脚本、直播脚本、短视频脚本",
+      "category": "内容产出",
+      "useCases": ["短视频脚本", "直播脚本", "广告脚本", "教学脚本"]
+    },
+    {
+      "id": "storyteller",
+      "name": "故事创作",
+      "description": "品牌故事、用户故事、场景故事",
+      "category": "内容产出",
+      "useCases": ["品牌故事", "用户案例", "场景故事", "情感营销"]
+    },
+
+    # ==================== 情报分析 (新增) ====================
+    {
+      "id": "market-intelligence",
+      "name": "市场情报",
+      "description": "市场趋势、竞争情报、行业分析",
+      "category": "情报分析",
+      "useCases": ["市场趋势分析", "竞品监控", "行业报告", "机会识别"]
+    },
+    {
+      "id": "competitor-analysis",
+      "name": "竞品分析",
+      "description": "竞争对手深度分析",
+      "category": "情报分析",
+      "useCases": ["竞品功能对比", "定价策略", "市场定位", "SWOT分析"]
+    },
+    {
+      "id": "industry-research",
+      "name": "行业研究",
+      "description": "行业深度研究和报告生成",
+      "category": "情报分析",
+      "useCases": ["行业调研", "产业链分析", "政策解读", "趋势预测"]
+    },
+    {
+      "id": "technology-radar",
+      "name": "技术雷达",
+      "description": "前沿技术追踪和分析",
+      "category": "情报分析",
+      "useCases": ["技术趋势", "新技术评估", "技术选型", "创新机会"]
+    },
+    {
+      "id": "patent-analysis",
+      "name": "专利分析",
+      "description": "专利检索、分析、预警",
+      "category": "情报分析",
+      "useCases": ["专利检索", "侵权分析", "技术路线", "专利布局"]
+    },
+
+    # ==================== 创意设计 (新增) ====================
+    {
+      "id": "graphic-design-assistant",
+      "name": "平面设计助手",
+      "description": "海报、banner、海报设计建议",
+      "category": "创意设计",
+      "useCases": ["海报设计", "Banner设计", "宣传物料", "品牌视觉"]
+    },
+    {
+      "id": "ui-ux-designer",
+      "name": "UI/UX设计助手",
+      "description": "界面设计、用户体验优化",
+      "category": "创意设计",
+      "useCases": ["界面设计", "交互设计", "用户体验", "原型设计"]
+    },
+    {
+      "id": "brand-designer",
+      "name": "品牌设计助手",
+      "description": "VI设计、品牌视觉识别",
+      "category": "创意设计",
+      "useCases": ["Logo设计", "VI系统", "品牌色彩", "字体选择"]
+    },
+    {
+      "id": "video-editor-assistant",
+      "name": "视频剪辑助手",
+      "description": "视频剪辑建议、特效推荐",
+      "category": "创意设计",
+      "useCases": ["剪辑建议", "特效选择", "配乐推荐", "字幕设计"]
+    },
+    {
+      "id": "presentation-designer",
+      "name": "演示文稿设计",
+      "description": "PPT设计、Keynote设计",
+      "category": "创意设计",
+      "useCases": ["PPT设计", "图表美化", "动画效果", "模板推荐"]
+    },
+
+    # ==================== 研发创新 (新增) ====================
+    {
+      "id": "product-ideation",
+      "name": "产品创意",
+      "description": "产品创意生成和评估",
+      "category": "研发创新",
+      "useCases": ["创意生成", "概念验证", "可行性分析", "创新方案"]
+    },
+    {
+      "id": "technology-research",
+      "name": "技术研究",
+      "description": "技术调研和选型",
+      "category": "研发创新",
+      "useCases": ["技术调研", "方案对比", "POC验证", "技术文档"]
+    },
+    {
+      "id": "patent-mining",
+      "name": "专利挖掘",
+      "description": "技术创新点识别和专利挖掘",
+      "category": "研发创新",
+      "useCases": ["创新点识别", "专利撰写", "技术保护", "知识产权"]
+    },
+    {
+      "id": "experiment-designer",
+      "name": "实验设计",
+      "description": "科学实验设计和分析",
+      "category": "研发创新",
+      "useCases": ["实验方案", "变量控制", "数据分析", "结论验证"]
+    },
+    {
+      "id": "innovation-management",
+      "name": "创新管理",
+      "description": "创新流程管理和成果转化",
+      "category": "研发创新",
+      "useCases": ["创意收集", "项目管理", "成果评估", "转化跟踪"]
+    },
+
+    # ==================== 国际化 (新增) ====================
+    {
+      "id": "multilingual-translator",
+      "name": "多语言翻译",
+      "description": "专业多语言翻译服务",
+      "category": "国际化",
+      "useCases": ["文档翻译", "网站本地化", "APP国际化", "实时翻译"]
+    },
+    {
+      "id": "cultural-advisor",
+      "name": "文化顾问",
+      "description": "跨文化沟通和建议",
+      "category": "国际化",
+      "useCases": ["文化差异", "本地化建议", "沟通礼仪", "商业习惯"]
+    },
+    {
+      "id": "international-compliance",
+      "name": "国际合规",
+      "description": "GDPR、数据合规、法律合规",
+      "category": "国际化",
+      "useCases": ["GDPR合规", "数据保护", "隐私政策", "跨境合规"]
+    },
+    {
+      "id": "global-market-entry",
+      "name": "海外市场进入",
+      "description": "海外市场进入策略",
+      "category": "国际化",
+      "useCases": ["市场调研", "进入策略", "本地化方案", "渠道建设"]
+    },
+    {
+      "id": "cross-border-operations",
+      "name": "跨境运营",
+      "description": "跨境电商、跨境业务运营",
+      "category": "国际化",
+      "useCases": ["跨境物流", "支付对接", "税务处理", "客服支持"]
+    },
+
+    # ==================== 其他技能 ====================
+    {
+      "id": "task-tracker",
+      "name": "任务跟踪管理",
+      "description": "任务分配、进度跟踪、提醒",
+      "category": "办公协作",
+      "native": "飞书任务",
+      "useCases": ["任务分配", "进度更新", "截止提醒", "完成统计"]
+    },
+    {
+      "id": "email-assistant",
+      "name": "邮件助手",
+      "description": "智能邮件分类、回复建议、摘要",
+      "category": "办公协作",
+      "native": "飞书邮箱",
+      "useCases": ["邮件分类", "自动回复", "重要邮件识别", "邮件摘要"]
+    },
+    {
+      "id": "approval-flow",
+      "name": "审批流程助手",
+      "description": "审批流程跟踪和提醒",
+      "category": "办公协作",
+      "native": "飞书审批",
+      "useCases": ["审批进度查询", "超时提醒", "审批统计", "流程优化建议"]
+    },
+    {
+      "id": "project-manager",
+      "name": "项目管理助手",
+      "description": "项目进度、资源、风险管理",
+      "category": "办公协作",
+      "native": "飞书项目",
+      "useCases": ["项目规划", "进度跟踪", "资源分配", "风险识别"]
+    },
+    {
+      "id": "knowledge-base",
+      "name": "知识库管理",
+      "description": "知识库构建、检索、更新",
+      "category": "客户服务",
+      "native": "飞书知识库",
+      "useCases": ["知识录入", "智能检索", "知识更新", "使用统计"]
+    }
+  ],
+  "categories": [
+    {"id": "office", "name": "办公协作", "icon": "🏢", "count": 8},
+    {"id": "ecommerce", "name": "电商运营", "icon": "🛒", "count": 8},
+    {"id": "service", "name": "客户服务", "icon": "💬", "count": 6},
+    {"id": "data", "name": "数据分析", "icon": "📊", "count": 6},
+    {"id": "marketing", "name": "营销推广", "icon": "📢", "count": 8},
+    {"id": "hr", "name": "人力资源", "icon": "👥", "count": 5},
+    {"id": "finance", "name": "财务管理", "icon": "💰", "count": 5},
+    {"id": "devops", "name": "开发运维", "icon": "⚙️", "count": 7},
+    {"id": "legal", "name": "法务合规", "icon": "⚖️", "count": 3},
+    {"id": "personal", "name": "个人助理", "icon": "👤", "count": 4},
+    {"id": "content", "name": "内容产出", "icon": "📝", "count": 6},
+    {"id": "intelligence", "name": "情报分析", "icon": "🕵️", "count": 5},
+    {"id": "design", "name": "创意设计", "icon": "🎨", "count": 5},
+    {"id": "rd", "name": "研发创新", "icon": "🔬", "count": 5},
+    {"id": "global", "name": "国际化", "icon": "🌐", "count": 6}
+  ]
+}

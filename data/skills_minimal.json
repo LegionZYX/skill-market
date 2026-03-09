@@ -1,0 +1,572 @@
+{
+  "version": "3.0.0",
+  "lastUpdated": "2026-03-09",
+  "description": "精简版技能清单 - 聚焦核心信息",
+  "skills": [
+    # ==================== 核心企业技能 (P0) ====================
+    {
+      "id": "lark-calendar",
+      "name": "飞书日程管理",
+      "description": "管理飞书日历、日程安排、会议预约",
+      "category": "办公协作",
+      "useCases": ["查询日程安排", "创建会议邀请", "日程冲突检测", "自动提醒"]
+    },
+    {
+      "id": "dingtalk-attendance",
+      "name": "钉钉考勤统计",
+      "description": "自动统计钉钉考勤数据,生成报表",
+      "category": "办公协作",
+      "useCases": ["每日考勤统计", "迟到早退分析", "加班时长计算", "月度考勤报表"]
+    },
+    {
+      "id": "meeting-notes",
+      "name": "会议纪要助手",
+      "description": "自动生成会议纪要和待办事项",
+      "category": "办公协作",
+      "useCases": ["会议录音转文字", "关键信息提取", "待办事项生成", "会议总结"]
+    },
+    {
+      "id": "wecom-contacts",
+      "name": "企业微信通讯录",
+      "description": "管理企业微信通讯录和群组",
+      "category": "办公协作",
+      "useCases": ["通讯录查询", "群组管理", "成员标签", "组织架构"]
+    },
+    {
+      "id": "taobao-product-manager",
+      "name": "淘宝商品管理",
+      "description": "淘宝商品上架、编辑、优化",
+      "category": "电商运营",
+      "useCases": ["批量商品上架", "商品标题优化", "价格监控", "库存同步"]
+    },
+    {
+      "id": "douyin-ecommerce",
+      "name": "抖音电商运营",
+      "description": "抖音电商商品和直播管理",
+      "category": "电商运营",
+      "useCases": ["商品橱窗管理", "直播商品上架", "直播数据监控", "短视频带货分析"]
+    },
+    {
+      "id": "inventory-manager",
+      "name": "库存管理系统",
+      "description": "多平台库存同步和预警",
+      "category": "电商运营",
+      "useCases": ["库存同步", "库存预警", "补货建议", "库存周转分析"]
+    },
+    {
+      "id": "smart-customer-service",
+      "name": "智能客服",
+      "description": "基于AI的智能客服对话系统",
+      "category": "客户服务",
+      "useCases": ["自动回复客户咨询", "意图识别", "多轮对话", "转人工判断"]
+    },
+    {
+      "id": "ticket-manager",
+      "name": "工单管理系统",
+      "description": "客户工单创建、分配、跟踪",
+      "category": "客户服务",
+      "useCases": ["工单创建", "自动分配", "进度跟踪", "SLA监控"]
+    },
+    {
+      "id": "report-generator",
+      "name": "报表生成器",
+      "description": "自动生成业务报表,支持多种格式",
+      "category": "数据分析",
+      "useCases": ["销售报表生成", "财务报表", "周报月报", "数据可视化"]
+    },
+    {
+      "id": "wechat-mp-manager",
+      "name": "公众号管理",
+      "description": "微信公众号内容管理和数据分析",
+      "category": "营销推广",
+      "useCases": ["文章排版", "素材管理", "用户分析", "自动回复设置"]
+    },
+    {
+      "id": "content-creator",
+      "name": "内容创作助手",
+      "description": "AI辅助内容创作,支持多种文体",
+      "category": "营销推广",
+      "useCases": ["营销文案生成", "新闻稿撰写", "社交媒体内容", "产品描述优化"]
+    },
+    {
+      "id": "resume-screener",
+      "name": "简历筛选",
+      "description": "自动筛选简历,匹配岗位需求",
+      "category": "人力资源",
+      "useCases": ["简历关键词匹配", "技能评估", "学历验证", "推荐排序"]
+    },
+    {
+      "id": "invoice-ocr",
+      "name": "发票识别",
+      "description": "OCR识别发票信息,自动录入",
+      "category": "财务管理",
+      "useCases": ["发票信息提取", "真伪验证", "报销流程", "税务申报"]
+    },
+    {
+      "id": "code-reviewer",
+      "name": "代码审查",
+      "description": "AI辅助代码审查,发现潜在问题",
+      "category": "开发运维",
+      "useCases": ["代码质量检查", "安全漏洞扫描", "性能优化建议", "代码规范检查"]
+    },
+    {
+      "id": "personal-calendar",
+      "name": "个人日程管理",
+      "description": "个人日程安排和提醒",
+      "category": "个人助理",
+      "useCases": ["日程安排", "提醒设置", "待办清单", "时间统计"]
+    },
+    {
+      "id": "translator",
+      "name": "翻译助手",
+      "description": "多语言翻译和润色",
+      "category": "个人助理",
+      "useCases": ["文本翻译", "文档翻译", "语音翻译", "润色优化"]
+    },
+    {
+      "id": "contract-reviewer",
+      "name": "合同审查",
+      "description": "智能合同审查,风险提示",
+      "category": "法务合规",
+      "useCases": ["合同条款分析", "风险点识别", "合规性检查", "修改建议"]
+    },
+
+    # ==================== 扩展企业技能 (P1) ====================
+    {
+      "id": "task-tracker",
+      "name": "任务跟踪管理",
+      "description": "任务分配、进度跟踪、提醒",
+      "category": "办公协作",
+      "useCases": ["任务分配", "进度更新", "截止提醒", "完成统计"]
+    },
+    {
+      "id": "email-assistant",
+      "name": "邮件助手",
+      "description": "智能邮件分类、回复建议、摘要",
+      "category": "办公协作",
+      "useCases": ["邮件分类", "自动回复", "重要邮件识别", "邮件摘要"]
+    },
+    {
+      "id": "approval-flow",
+      "name": "审批流程助手",
+      "description": "审批流程跟踪和提醒",
+      "category": "办公协作",
+      "useCases": ["审批进度查询", "超时提醒", "审批统计", "流程优化建议"]
+    },
+    {
+      "id": "project-manager",
+      "name": "项目管理助手",
+      "description": "项目进度、资源、风险管理",
+      "category": "办公协作",
+      "useCases": ["项目规划", "进度跟踪", "资源分配", "风险识别"]
+    },
+    {
+      "id": "jd-order-processor",
+      "name": "京东订单处理",
+      "description": "自动处理京东订单,物流跟踪",
+      "category": "电商运营",
+      "useCases": ["订单自动处理", "物流信息查询", "异常订单预警", "退换货处理"]
+    },
+    {
+      "id": "price-monitor",
+      "name": "价格监控系统",
+      "description": "商品价格监控和调价建议",
+      "category": "电商运营",
+      "useCases": ["竞品价格监控", "价格趋势分析", "自动调价", "价格策略建议"]
+    },
+    {
+      "id": "review-sentiment",
+      "name": "评价情感分析",
+      "description": "商品评价情感分析和关键词提取",
+      "category": "电商运营",
+      "useCases": ["评价情感分析", "关键词提取", "差评预警", "产品改进建议"]
+    },
+    {
+      "id": "live-streaming-assistant",
+      "name": "直播助手",
+      "description": "直播脚本、互动、数据分析",
+      "category": "电商运营",
+      "useCases": ["直播脚本生成", "互动话术", "实时数据监控", "直播复盘"]
+    },
+    {
+      "id": "ecommerce-analytics",
+      "name": "电商数据分析",
+      "description": "电商数据分析和可视化",
+      "category": "电商运营",
+      "useCases": ["销售趋势分析", "商品表现评估", "用户画像", "竞品对比"]
+    },
+    {
+      "id": "faq-generator",
+      "name": "FAQ自动生成",
+      "description": "基于历史对话自动生成FAQ",
+      "category": "客户服务",
+      "useCases": ["问题聚类", "答案生成", "FAQ更新", "知识库维护"]
+    },
+    {
+      "id": "knowledge-base",
+      "name": "知识库管理",
+      "description": "知识库构建、检索、更新",
+      "category": "客户服务",
+      "useCases": ["知识录入", "智能检索", "知识更新", "使用统计"]
+    },
+    {
+      "id": "customer-tagging",
+      "name": "客户标签系统",
+      "description": "客户自动打标签和画像",
+      "category": "客户服务",
+      "useCases": ["客户分类", "自动打标签", "画像生成", "精准营销"]
+    },
+    {
+      "id": "complaint-handler",
+      "name": "投诉处理助手",
+      "description": "投诉分类、处理建议、跟踪",
+      "category": "客户服务",
+      "useCases": ["投诉分类", "处理方案建议", "升级判断", "跟踪反馈"]
+    },
+    {
+      "id": "data-visualization",
+      "name": "数据可视化",
+      "description": "图表生成、仪表板、交互式可视化",
+      "category": "数据分析",
+      "useCases": ["图表生成", "仪表板创建", "数据探索", "报告美化"]
+    },
+    {
+      "id": "sales-forecast",
+      "name": "销售预测",
+      "description": "基于历史数据预测销售趋势",
+      "category": "数据分析",
+      "useCases": ["销售预测", "趋势分析", "季节性分析", "目标设定"]
+    },
+    {
+      "id": "user-behavior-analysis",
+      "name": "用户行为分析",
+      "description": "用户行为追踪、分析、画像",
+      "category": "数据分析",
+      "useCases": ["用户路径分析", "漏斗分析", "留存分析", "用户分群"]
+    },
+    {
+      "id": "anomaly-detection",
+      "name": "异常检测",
+      "description": "数据异常检测和预警",
+      "category": "数据分析",
+      "useCases": ["异常识别", "趋势预警", "根因分析", "自动告警"]
+    },
+    {
+      "id": "ab-test-analysis",
+      "name": "A/B测试分析",
+      "description": "A/B测试设计和结果分析",
+      "category": "数据分析",
+      "useCases": ["实验设计", "样本量计算", "结果分析", "结论报告"]
+    },
+    {
+      "id": "ad-optimizer",
+      "name": "广告优化",
+      "description": "广告投放优化和ROI分析",
+      "category": "营销推广",
+      "useCases": ["广告效果分析", "预算优化", "受众定向", "A/B测试"]
+    },
+    {
+      "id": "seo-auditor",
+      "name": "SEO审计",
+      "description": "网站SEO优化检查和建议",
+      "category": "营销推广",
+      "useCases": ["SEO诊断", "关键词分析", "外链检查", "优化建议"]
+    },
+    {
+      "id": "kol-finder",
+      "name": "KOL查找与合作",
+      "description": "KOL筛选、评估、合作管理",
+      "category": "营销推广",
+      "useCases": ["KOL筛选", "数据分析", "合作谈判", "效果评估"]
+    },
+    {
+      "id": "social-media-monitor",
+      "name": "社媒监控",
+      "description": "社交媒体舆情监控和分析",
+      "category": "营销推广",
+      "useCases": ["舆情监控", "品牌提及", "竞品动态", "危机预警"]
+    },
+    {
+      "id": "private-traffic-ops",
+      "name": "私域流量运营",
+      "description": "微信群、企业微信私域运营",
+      "category": "营销推广",
+      "useCases": ["社群管理", "内容推送", "用户激活", "转化跟踪"]
+    },
+    {
+      "id": "douyin-ops",
+      "name": "抖音运营助手",
+      "description": "抖音内容发布、数据监控、粉丝互动",
+      "category": "营销推广",
+      "useCases": ["内容发布", "数据监控", "粉丝互动", "热点追踪"]
+    },
+    {
+      "id": "interview-scheduler",
+      "name": "面试安排助手",
+      "description": "面试时间协调、提醒、反馈收集",
+      "category": "人力资源",
+      "useCases": ["时间协调", "面试邀请", "日程提醒", "反馈收集"]
+    },
+    {
+      "id": "payroll-calculator",
+      "name": "薪资计算器",
+      "description": "薪资、社保、个税计算",
+      "category": "人力资源",
+      "useCases": ["薪资计算", "社保公积金", "个税计算", "工资条生成"]
+    },
+    {
+      "id": "performance-review",
+      "name": "绩效考核助手",
+      "description": "绩效考核流程管理和分析",
+      "category": "人力资源",
+      "useCases": ["考核指标设定", "自评互评", "结果统计", "改进建议"]
+    },
+    {
+      "id": "training-manager",
+      "name": "培训管理",
+      "description": "培训计划、课程管理、效果评估",
+      "category": "人力资源",
+      "useCases": ["培训计划", "课程管理", "学习跟踪", "效果评估"]
+    },
+    {
+      "id": "expense-approval",
+      "name": "费用审批",
+      "description": "费用报销申请和审批流程",
+      "category": "财务管理",
+      "useCases": ["报销申请", "审批流程", "预算控制", "支付处理"]
+    },
+    {
+      "id": "budget-tracker",
+      "name": "预算管理",
+      "description": "部门预算制定和跟踪",
+      "category": "财务管理",
+      "useCases": ["预算制定", "执行跟踪", "超支预警", "分析报告"]
+    },
+    {
+      "id": "financial-report",
+      "name": "财务报表生成",
+      "description": "自动生成财务三大报表",
+      "category": "财务管理",
+      "useCases": ["资产负债表", "利润表", "现金流量表", "报表分析"]
+    },
+    {
+      "id": "receivable-payable",
+      "name": "应收应付管理",
+      "description": "应收账款和应付账款管理",
+      "category": "财务管理",
+      "useCases": ["账龄分析", "催款提醒", "付款计划", "对账"]
+    },
+    {
+      "id": "ci-pipeline",
+      "name": "CI流水线",
+      "description": "CI/CD流水线配置和管理",
+      "category": "开发运维",
+      "useCases": ["流水线配置", "构建监控", "部署自动化", "回滚管理"]
+    },
+    {
+      "id": "alert-manager",
+      "name": "告警管理",
+      "description": "监控告警配置和通知",
+      "category": "开发运维",
+      "useCases": ["告警规则配置", "通知渠道管理", "告警抑制", "值班管理"]
+    },
+    {
+      "id": "log-analyzer",
+      "name": "日志分析",
+      "description": "日志采集、分析、告警",
+      "category": "开发运维",
+      "useCases": ["日志采集", "错误分析", "性能分析", "异常检测"]
+    },
+    {
+      "id": "docker-manager",
+      "name": "容器管理",
+      "description": "Docker容器和镜像管理",
+      "category": "开发运维",
+      "useCases": ["容器监控", "镜像管理", "资源限制", "日志查看"]
+    },
+    {
+      "id": "db-manager",
+      "name": "数据库管理",
+      "description": "数据库监控、备份、优化",
+      "category": "开发运维",
+      "useCases": ["性能监控", "慢查询分析", "自动备份", "容量规划"]
+    },
+    {
+      "id": "security-scanner",
+      "name": "安全扫描",
+      "description": "安全漏洞扫描和修复建议",
+      "category": "开发运维",
+      "useCases": ["漏洞扫描", "合规检查", "修复建议", "安全报告"]
+    },
+    {
+      "id": "compliance-checker",
+      "name": "合规检查",
+      "description": "企业合规性检查和建议",
+      "category": "法务合规",
+      "useCases": ["合规审查", "法规解读", "整改建议", "合规培训"]
+    },
+    {
+      "id": "legal-consultant",
+      "name": "法律咨询助手",
+      "description": "法律问题咨询和解答",
+      "category": "法务合规",
+      "useCases": ["法律咨询", "案例检索", "法规查询", "合同模板"]
+    },
+    {
+      "id": "note-taking",
+      "name": "智能笔记",
+      "description": "笔记记录、整理、检索",
+      "category": "个人助理",
+      "useCases": ["笔记记录", "自动整理", "智能检索", "知识图谱"]
+    },
+    {
+      "id": "accounting-assistant",
+      "name": "记账助手",
+      "description": "日常收支记录和统计",
+      "category": "个人助理",
+      "useCases": ["快速记账", "分类统计", "预算控制", "财务报表"]
+    },
+
+    # ==================== 扩展场景技能 ====================
+    {
+      "id": "web-scraper",
+      "name": "网页数据采集",
+      "description": "自动采集网页数据和结构化",
+      "category": "数据采集",
+      "useCases": ["网页抓取", "数据提取", "格式转换", "定时采集"]
+    },
+    {
+      "id": "api-tester",
+      "name": "API测试助手",
+      "description": "API接口测试和文档生成",
+      "category": "开发运维",
+      "useCases": ["接口测试", "参数验证", "文档生成", "性能测试"]
+    },
+    {
+      "id": "sql-generator",
+      "name": "SQL生成器",
+      "description": "自然语言转SQL查询",
+      "category": "数据分析",
+      "useCases": ["SQL生成", "查询优化", "语法检查", "结果解释"]
+    },
+    {
+      "id": "chart-generator",
+      "name": "图表生成器",
+      "description": "根据数据自动生成图表",
+      "category": "数据分析",
+      "useCases": ["图表选择", "样式配置", "数据映射", "导出分享"]
+    },
+    {
+      "id": "document-summarizer",
+      "name": "文档摘要生成",
+      "description": "长文档自动摘要和要点提取",
+      "category": "内容处理",
+      "useCases": ["文档摘要", "要点提取", "多语言摘要", "格式转换"]
+    },
+    {
+      "id": "image-caption",
+      "name": "图片描述生成",
+      "description": "自动生成图片描述和标签",
+      "category": "内容处理",
+      "useCases": ["图片识别", "描述生成", "标签提取", "批量处理"]
+    },
+    {
+      "id": "audio-transcriber",
+      "name": "音频转文字",
+      "description": "音频文件转文字和字幕",
+      "category": "内容处理",
+      "useCases": ["语音识别", "字幕生成", "多人识别", "时间戳"]
+    },
+    {
+      "id": "video-analyzer",
+      "name": "视频内容分析",
+      "description": "视频内容理解和标注",
+      "category": "内容处理",
+      "useCases": ["场景识别", "人物检测", "内容标注", "摘要生成"]
+    },
+    {
+      "id": "chatbot-builder",
+      "name": "聊天机器人构建",
+      "description": "可视化构建对话机器人",
+      "category": "AI工具",
+      "useCases": ["对话设计", "流程编排", "测试部署", "数据分析"]
+    },
+    {
+      "id": "prompt-optimizer",
+      "name": "Prompt优化器",
+      "description": "优化AI提示词效果",
+      "category": "AI工具",
+      "useCases": ["Prompt分析", "效果测试", "版本管理", "最佳实践"]
+    },
+    {
+      "id": "model-comparer",
+      "name": "模型对比工具",
+      "description": "对比不同AI模型效果",
+      "category": "AI工具",
+      "useCases": ["模型选择", "效果对比", "成本分析", "性能测试"]
+    },
+    {
+      "id": "workflow-automation",
+      "name": "工作流自动化",
+      "description": "设计和执行自动化工作流",
+      "category": "自动化",
+      "useCases": ["流程设计", "触发器配置", "任务编排", "监控告警"]
+    },
+    {
+      "id": "schedule-automation",
+      "name": "定时任务管理",
+      "description": "创建和管理定时任务",
+      "category": "自动化",
+      "useCases": ["任务调度", "定时触发", "依赖管理", "失败重试"]
+    },
+    {
+      "id": "notification-hub",
+      "name": "通知中心",
+      "description": "多渠道消息通知管理",
+      "category": "自动化",
+      "useCases": ["消息推送", "渠道管理", "模板配置", "发送统计"]
+    },
+    {
+      "id": "ocr-extractor",
+      "name": "通用OCR识别",
+      "description": "图片文字识别和提取",
+      "category": "数据处理",
+      "useCases": ["文字识别", "表格识别", "证件识别", "批量处理"]
+    },
+    {
+      "id": "file-converter",
+      "name": "文件格式转换",
+      "description": "各种文件格式互转",
+      "category": "数据处理",
+      "useCases": ["格式转换", "批量转换", "质量优化", "压缩处理"]
+    },
+    {
+      "id": "data-cleaner",
+      "name": "数据清洗工具",
+      "description": "数据清洗和标准化",
+      "category": "数据处理",
+      "useCases": ["去重", "格式统一", "缺失值处理", "异常值检测"]
+    },
+    {
+      "id": "github-assistant",
+      "name": "GitHub助手",
+      "description": "GitHub仓库管理和协作",
+      "category": "开发工具",
+      "useCases": ["仓库管理", "PR处理", "Issue跟踪", "代码搜索"]
+    },
+    {
+      "id": "docker-assistant",
+      "name": "Docker助手",
+      "description": "Docker容器管理助手",
+      "category": "开发工具",
+      "useCases": ["容器管理", "镜像构建", "网络配置", "日志查看"]
+    },
+    {
+      "id": "kubernetes-assistant",
+      "name": "Kubernetes助手",
+      "description": "K8s集群管理助手",
+      "category": "开发工具",
+      "useCases": ["资源管理", "部署配置", "扩缩容", "故障排查"]
+    }
+  ]
+}

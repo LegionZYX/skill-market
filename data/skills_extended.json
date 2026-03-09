@@ -1,0 +1,352 @@
+{
+  "version": "3.1.0",
+  "lastUpdated": "2026-03-09",
+  "description": "扩展版技能清单 - 包含创新场景",
+  "sources": [
+    "OpenClaw Community",
+    "GitHub: AutoGPT",
+    "GitHub: Semantic Kernel",
+    "GitHub: LangChain",
+    "GitHub: ChatGPT Retrieval Plugin",
+    "Tech Blogs & Communities"
+  ],
+  "skills": [
+    # ==================== 原有60个核心技能 ====================
+    # (保持原有技能列表...)
+    {
+      "id": "lark-calendar",
+      "name": "飞书日程管理",
+      "description": "管理飞书日历、日程安排、会议预约",
+      "category": "办公协作"
+    },
+    {
+      "id": "dingtalk-attendance",
+      "name": "钉钉考勤统计",
+      "description": "自动统计钉钉考勤数据,生成报表",
+      "category": "办公协作"
+    },
+    {
+      "id": "meeting-notes",
+      "name": "会议纪要助手",
+      "description": "自动生成会议纪要和待办事项",
+      "category": "办公协作"
+    },
+    {
+      "id": "wecom-contacts",
+      "name": "企业微信通讯录",
+      "description": "管理企业微信通讯录和群组",
+      "category": "办公协作"
+    },
+    {
+      "id": "task-tracker",
+      "name": "任务跟踪管理",
+      "description": "任务分配、进度跟踪、提醒",
+      "category": "办公协作"
+    },
+    {
+      "id": "email-assistant",
+      "name": "邮件助手",
+      "description": "智能邮件分类、回复建议、摘要",
+      "category": "办公协作"
+    },
+    {
+      "id": "approval-flow",
+      "name": "审批流程助手",
+      "description": "审批流程跟踪和提醒",
+      "category": "办公协作"
+    },
+    {
+      "id": "project-manager",
+      "name": "项目管理助手",
+      "description": "项目进度、资源、风险管理",
+      "category": "办公协作"
+    },
+
+    # ==================== 创新场景技能 (新增) ====================
+    {
+      "id": "ai-agent-orchestrator",
+      "name": "AI智能体编排",
+      "description": "基于AutoGPT/Semantic Kernel的多智能体协作系统",
+      "category": "AI工具",
+      "source": "GitHub: AutoGPT, Semantic Kernel"
+    },
+    {
+      "id": "rag-knowledge-retrieval",
+      "name": "RAG知识检索",
+      "description": "检索增强生成，从文档库中智能检索信息",
+      "category": "知识管理",
+      "source": "GitHub: ChatGPT Retrieval Plugin"
+    },
+    {
+      "id": "multi-agent-workflow",
+      "name": "多智能体工作流",
+      "description": "多个AI智能体协同完成复杂任务",
+      "category": "AI工具",
+      "source": "GitHub: Semantic Kernel"
+    },
+    {
+      "id": "autonomous-researcher",
+      "name": "自主研究助手",
+      "description": "自动搜索、阅读、总结研究资料",
+      "category": "研究分析",
+      "source": "AutoGPT"
+    },
+    {
+      "id": "code-generator",
+      "name": "代码生成器",
+      "description": "根据需求自动生成代码和测试",
+      "category": "开发工具",
+      "source": "GitHub: Multiple"
+    },
+    {
+      "id": "document-chat",
+      "name": "文档对话系统",
+      "description": "与PDF、Word等文档进行自然语言对话",
+      "category": "内容处理",
+      "source": "RAG Pattern"
+    },
+    {
+      "id": "intelligent-assistant",
+      "name": "智能助理Agent",
+      "description": "具备记忆、规划、执行能力的AI助理",
+      "category": "个人助理",
+      "source": "AutoGPT Pattern"
+    },
+    {
+      "id": "code-assistant",
+      "name": "编程助手Copilot",
+      "description": "实时编程建议、代码补全、重构",
+      "category": "开发工具",
+      "source": "GitHub Copilot"
+    },
+    {
+      "id": "testing-agent",
+      "name": "自动化测试Agent",
+      "description": "自动生成测试用例、执行测试、生成报告",
+      "category": "开发工具",
+      "source": "DevOps"
+    },
+    {
+      "id": "data-pipeline-builder",
+      "name": "数据流水线构建",
+      "description": "可视化构建ETL数据处理流程",
+      "category": "数据处理",
+      "source": "Data Engineering"
+    },
+    {
+      "id": "ai-tutor",
+      "name": "AI个性化导师",
+      "description": "根据学习进度提供个性化教学",
+      "category": "教育学习",
+      "source": "EdTech"
+    },
+    {
+      "id": "health-advisor",
+      "name": "健康顾问助手",
+      "description": "健康数据分析、建议、预警",
+      "category": "健康医疗",
+      "source": "HealthTech"
+    },
+    {
+      "id": "legal-document-analyzer",
+      "name": "法律文档分析",
+      "description": "自动分析合同、法规、案例",
+      "category": "法务合规",
+      "source": "LegalTech"
+    },
+    {
+      "id": "market-research-agent",
+      "name": "市场研究Agent",
+      "description": "自动收集市场数据、生成分析报告",
+      "category": "营销推广",
+      "source": "Market Intelligence"
+    },
+    {
+      "id": "customer-insight-agent",
+      "name": "客户洞察Agent",
+      "description": "深度分析客户行为、预测需求",
+      "category": "客户服务",
+      "source": "CRM"
+    },
+    {
+      "id": "supply-chain-optimizer",
+      "name": "供应链优化",
+      "description": "优化库存、物流、采购决策",
+      "category": "供应链",
+      "source": "Supply Chain"
+    },
+    {
+      "id": "financial-advisor",
+      "name": "智能投顾",
+      "description": "个性化投资建议、风险评估",
+      "category": "财务管理",
+      "source": "FinTech"
+    },
+    {
+      "id": "hr-recruiter-agent",
+      "name": "智能招聘Agent",
+      "description": "自动筛选简历、安排面试、评估候选人",
+      "category": "人力资源",
+      "source": "HR Tech"
+    },
+    {
+      "id": "content-moderator",
+      "name": "内容审核系统",
+      "description": "自动审核文本、图片、视频内容",
+      "category": "内容处理",
+      "source": "Content Safety"
+    },
+    {
+      "id": "sentiment-analyzer",
+      "name": "情感分析系统",
+      "description": "分析文本、语音中的情绪和态度",
+      "category": "数据分析",
+      "source": "NLP"
+    },
+    {
+      "id": "recommendation-engine",
+      "name": "推荐系统",
+      "description": "个性化内容、商品、服务推荐",
+      "category": "营销推广",
+      "source": "Recommendation Systems"
+    },
+    {
+      "id": "chatbot-designer",
+      "name": "对话机器人设计",
+      "description": "可视化设计多轮对话流程",
+      "category": "客户服务",
+      "source": "Conversational AI"
+    },
+    {
+      "id": "voice-assistant",
+      "name": "语音助手",
+      "description": "语音识别、合成、对话",
+      "category": "个人助理",
+      "source": "Voice AI"
+    },
+    {
+      "id": "ar-vr-content-creator",
+      "name": "AR/VR内容创作",
+      "description": "生成AR/VR场景和内容",
+      "category": "内容创作",
+      "source": "Immersive Tech"
+    },
+    {
+      "id": "iot-controller",
+      "name": "IoT智能控制",
+      "description": "控制和管理智能设备",
+      "category": "智能硬件",
+      "source": "IoT"
+    },
+    {
+      "id": "blockchain-analyzer",
+      "name": "区块链分析",
+      "description": "分析区块链数据、交易模式",
+      "category": "金融科技",
+      "source": "Blockchain"
+    },
+    {
+      "id": "accessibility-assistant",
+      "name": "无障碍助手",
+      "description": "为残障人士提供辅助功能",
+      "category": "社会责任",
+      "source": "Accessibility"
+    },
+    {
+      "id": "sustainability-tracker",
+      "name": "可持续发展追踪",
+      "description": "追踪碳排放、ESG指标",
+      "category": "可持续发展",
+      "source": "Sustainability"
+    },
+    {
+      "id": "crisis-monitor",
+      "name": "危机监控",
+      "description": "监控舆情、预警危机",
+      "category": "风险管理",
+      "source": "Risk Management"
+    },
+    {
+      "id": "knowledge-graph-builder",
+      "name": "知识图谱构建",
+      "description": "自动构建和更新知识图谱",
+      "category": "知识管理",
+      "source": "Knowledge Engineering"
+    },
+    {
+      "id": "semantic-search",
+      "name": "语义搜索引擎",
+      "description": "基于语义理解的智能搜索",
+      "category": "搜索工具",
+      "source": "Search Technology"
+    },
+    {
+      "id": "personalization-engine",
+      "name": "个性化引擎",
+      "description": "用户画像、行为预测、个性化推荐",
+      "category": "数据分析",
+      "source": "Personalization"
+    },
+    {
+      "id": "automation-studio",
+      "name": "自动化工作室",
+      "description": "可视化设计自动化流程",
+      "category": "自动化",
+      "source": "RPA"
+    },
+    {
+      "id": "collaboration-hub",
+      "name": "协作中心",
+      "description": "团队协作、文档共享、实时编辑",
+      "category": "办公协作",
+      "source": "Collaboration Tools"
+    },
+    {
+      "id": "ai-model-manager",
+      "name": "AI模型管理",
+      "description": "管理、部署、监控AI模型",
+      "category": "AI工具",
+      "source": "MLOps"
+    },
+    {
+      "id": "prompt-library",
+      "name": "Prompt库管理",
+      "description": "管理、优化、分享Prompt模板",
+      "category": "AI工具",
+      "source": "Prompt Engineering"
+    },
+    {
+      "id": "experiment-tracker",
+      "name": "实验追踪",
+      "description": "追踪AI实验、对比结果",
+      "category": "AI工具",
+      "source": "MLflow"
+    },
+    {
+      "id": "data-annotator",
+      "name": "数据标注工具",
+      "description": "半自动数据标注和质检",
+      "category": "数据处理",
+      "source": "Data Annotation"
+    },
+    {
+      "id": "feature-store",
+      "name": "特征库",
+      "description": "管理和共享机器学习特征",
+      "category": "数据处理",
+      "source": "Feature Engineering"
+    }
+  ],
+  "categories": [
+    {"id": "office", "name": "办公协作", "count": 9},
+    {"id": "ai-tools", "name": "AI工具", "count": 8},
+    {"id": "data-processing", "name": "数据处理", "count": 5},
+    {"id": "dev-tools", "name": "开发工具", "count": 4},
+    {"id": "customer-service", "name": "客户服务", "count": 4},
+    {"id": "knowledge-management", "name": "知识管理", "count": 3},
+    {"id": "content-processing", "name": "内容处理", "count": 3},
+    {"id": "marketing", "name": "营销推广", "count": 3},
+    {"id": "finance", "name": "财务管理", "count": 2},
+    {"id": "hr", "name": "人力资源", "count": 2}
+  ]
+}

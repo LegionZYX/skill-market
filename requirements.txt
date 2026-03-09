@@ -1,0 +1,29 @@
+# Python 依赖
+# 用于数据验证和转换工具
+
+# 数据处理
+pandas>=2.0.0
+openpyxl>=3.1.0  # Excel 支持
+
+# 验证
+jsonschema>=4.0.0
+
+# 数据库(可选)
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# pymongo>=4.0.0  # MongoDB
+
+# 可视化(可选)
+# matplotlib>=3.7.0
+# plotly>=5.0.0
+
+# Web 框架(可选,用于 API 服务)
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+
+# 工具
+python-dateutil>=2.8.0
+requests>=2.31.0
+
+# 类型检查(开发)
+# mypy>=1.0.0

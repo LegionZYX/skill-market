@@ -1,0 +1,16 @@
+﻿ID,名称,分类,子分类,描述,版本,作者,标签,优先级,平台,评分,下载量,状态
+lark-calendar,飞书日程管理,office,calendar,管理飞书日历、日程安排、会议预约,1.0.0,OpenClaw,飞书|日程|会议|热门,P0,飞书,4.8,15000,stable
+dingtalk-attendance,钉钉考勤统计,office,attendance,"自动统计钉钉考勤数据,生成报表",1.0.0,OpenClaw,钉钉|考勤|HR|热门,P0,钉钉,4.7,12000,stable
+taobao-product-manager,淘宝商品管理,ecommerce,product,淘宝商品上架、编辑、优化,1.0.0,OpenClaw,淘宝|电商|商品管理|热门,P0,淘宝|天猫,4.6,8500,stable
+jd-order-processor,京东订单处理,ecommerce,order,"自动处理京东订单,物流跟踪",1.0.0,OpenClaw,京东|订单|物流,P1,京东,4.5,6200,stable
+smart-customer-service,智能客服,service,chatbot,基于AI的智能客服对话系统,1.0.0,OpenClaw,客服|AI|对话|热门,P0,通用,4.9,20000,stable
+report-generator,报表生成器,data,report,"自动生成业务报表,支持多种格式",1.0.0,OpenClaw,报表|数据|可视化|热门,P0,通用,4.7,18000,stable
+wechat-mp-manager,公众号管理,marketing,social,微信公众号内容管理和数据分析,1.0.0,OpenClaw,微信|公众号|营销|热门,P0,微信公众号,4.6,14000,stable
+content-creator,内容创作助手,marketing,content,"AI辅助内容创作,支持多种文体",1.0.0,OpenClaw,内容|创作|AI|热门,P0,通用,4.8,22000,stable
+resume-screener,简历筛选,hr,recruitment,"自动筛选简历,匹配岗位需求",1.0.0,OpenClaw,HR|招聘|简历|热门,P1,通用,4.5,7500,stable
+invoice-ocr,发票识别,finance,invoice,"OCR识别发票信息,自动录入",1.0.0,OpenClaw,财务|发票|OCR|热门,P0,通用,4.7,16000,stable
+code-reviewer,代码审查,devops,code,"AI辅助代码审查,发现潜在问题",1.0.0,OpenClaw,开发|代码|审查|热门,P0,通用,4.8,25000,stable
+contract-reviewer,合同审查,legal,contract,"智能合同审查,风险提示",1.0.0,OpenClaw,法务|合同|风险|热门,P1,通用,4.6,5000,stable
+ecommerce-analytics,电商数据分析,ecommerce,analytics,电商数据分析和可视化,1.0.0,OpenClaw,电商|数据|分析,P1,淘宝|京东|拼多多,4.5,9000,stable
+ci-pipeline,CI流水线,devops,automation,CI/CD流水线配置和管理,1.0.0,OpenClaw,CI/CD|自动化|DevOps,P1,Jenkins|GitLab CI|GitHub Actions,4.4,7000,stable
+ad-optimizer,广告优化,marketing,advertising,广告投放优化和ROI分析,1.0.0,OpenClaw,广告|营销|ROI,P1,百度|腾讯|字节跳动,4.3,5500,stable
