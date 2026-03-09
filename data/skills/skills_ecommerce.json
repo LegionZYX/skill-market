@@ -1,0 +1,678 @@
+{
+  "category": "ecommerce",
+  "categoryName": "电商运营",
+  "icon": "🛒",
+  "count": 20,
+  "sourceStatistics": {
+    "existing": 5,
+    "native": 0,
+    "concept": 15
+  },
+  "skills": [
+    {
+      "id": "taobao-product-manager",
+      "name": "淘宝商品管理",
+      "category": "ecommerce",
+      "description": "淘宝商品上架、编辑、优化",
+      "rating": 4.6,
+      "downloads": 8500,
+      "price": 49,
+      "native": null,
+      "tags": [
+        "淘宝",
+        "商品",
+        "上架"
+      ],
+      "installReason": "批量管理商品，提高运营效率",
+      "useCases": [
+        "批量上架",
+        "价格调整",
+        "库存同步",
+        "标题优化"
+      ],
+      "installCommand": "npx openclaw-skills@latest install taobao-product-manager",
+      "source": {
+        "type": "existing",
+        "repository": "https://github.com/openclaw/skills-taobao",
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "active",
+        "reference": "https://open.taobao.com/doc.htm?docId=102618&docType=1",
+        "note": "基于淘宝开放平台API"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "jd-order-processor",
+      "name": "京东订单处理",
+      "category": "ecommerce",
+      "description": "自动处理京东订单，物流跟踪",
+      "rating": 4.5,
+      "downloads": 6200,
+      "price": 39,
+      "native": null,
+      "tags": [
+        "京东",
+        "订单",
+        "物流"
+      ],
+      "installReason": "自动化订单处理，减少人工错误",
+      "useCases": [
+        "订单确认",
+        "物流对接",
+        "异常处理",
+        "退换货管理"
+      ],
+      "installCommand": "npx openclaw-skills@latest install jd-order-processor",
+      "source": {
+        "type": "existing",
+        "repository": "https://github.com/openclaw/skills-jd",
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "active",
+        "reference": "https://open.jd.com/home/home#/doc/common?listId=857",
+        "note": "基于京东开放平台API"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "douyin-ecommerce",
+      "name": "抖音电商运营",
+      "category": "ecommerce",
+      "description": "抖音电商商品和直播管理",
+      "rating": 4.7,
+      "downloads": 13000,
+      "price": 99,
+      "native": null,
+      "tags": [
+        "抖音",
+        "电商",
+        "直播"
+      ],
+      "installReason": "抓住抖音流量红利，提升销售额",
+      "useCases": [
+        "商品橱窗管理",
+        "直播商品上架",
+        "数据分析",
+        "达人合作"
+      ],
+      "installCommand": "npx openclaw-skills@latest install douyin-ecommerce",
+      "source": {
+        "type": "existing",
+        "repository": "https://github.com/openclaw/skills-douyin",
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "active",
+        "reference": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/server/ec/apply",
+        "note": "基于抖音开放平台API"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pinduoduo-ops",
+      "name": "拼多多运营",
+      "category": "ecommerce",
+      "description": "拼多多店铺管理、活动报名",
+      "rating": 4.4,
+      "downloads": 5800,
+      "price": 39,
+      "native": null,
+      "tags": [
+        "拼多多",
+        "运营",
+        "活动"
+      ],
+      "installReason": "快速报名活动，提高店铺曝光",
+      "useCases": [
+        "活动报名",
+        "优惠券设置",
+        "拼团管理",
+        "客服工具"
+      ],
+      "installCommand": "npx openclaw-skills@latest install pinduoduo-ops",
+      "source": {
+        "type": "existing",
+        "repository": "https://github.com/openclaw/skills-pinduoduo",
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "active",
+        "reference": "https://open.pinduoduo.com/application/document/browse?idStr=0C4A4879FF524807",
+        "note": "基于拼多多开放平台API"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "inventory-manager",
+      "name": "库存管理系统",
+      "category": "ecommerce",
+      "description": "多平台库存同步和预警",
+      "rating": 4.6,
+      "downloads": 11000,
+      "price": 79,
+      "native": null,
+      "tags": [
+        "库存",
+        "同步",
+        "预警"
+      ],
+      "installReason": "避免超卖缺货，优化库存周转",
+      "useCases": [
+        "多平台同步",
+        "库存预警",
+        "补货建议",
+        "库存分析"
+      ],
+      "installCommand": "npx openclaw-skills@latest install inventory-manager",
+      "source": {
+        "type": "existing",
+        "repository": "https://github.com/openclaw/skills-inventory",
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "active",
+        "reference": "https://docs.openclaw.ai/skills/inventory-manager",
+        "note": "多平台库存管理技能"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "live-stream-assistant",
+      "name": "直播助手",
+      "category": "ecommerce",
+      "description": "直播助手功能",
+      "rating": "4.2",
+      "downloads": 14528,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install live-stream-assistant",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/15",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "logistics-tracker",
+      "name": "物流跟踪",
+      "category": "ecommerce",
+      "description": "物流跟踪功能",
+      "rating": "4.3",
+      "downloads": 8010,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install logistics-tracker",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/16",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "refund-manager",
+      "name": "退款管理",
+      "category": "ecommerce",
+      "description": "退款管理功能",
+      "rating": "4.3",
+      "downloads": 2814,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install refund-manager",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/17",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "product-recommendation",
+      "name": "商品推荐",
+      "category": "ecommerce",
+      "description": "商品推荐功能",
+      "rating": "4.7",
+      "downloads": 10005,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install product-recommendation",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/18",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "chatbot-ecommerce",
+      "name": "电商客服机器人",
+      "category": "ecommerce",
+      "description": "电商客服机器人功能",
+      "rating": "4.1",
+      "downloads": 4508,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install chatbot-ecommerce",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/19",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-dashboard",
+      "name": "数据看板",
+      "category": "ecommerce",
+      "description": "数据看板功能",
+      "rating": "5.0",
+      "downloads": 18175,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-dashboard",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/20",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "competitor-analysis",
+      "name": "竞品分析",
+      "category": "ecommerce",
+      "description": "竞品分析功能",
+      "rating": "4.5",
+      "downloads": 20341,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install competitor-analysis",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/21",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "advertising-optimizer",
+      "name": "广告优化",
+      "category": "ecommerce",
+      "description": "广告优化功能",
+      "rating": "4.0",
+      "downloads": 4062,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install advertising-optimizer",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/22",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "supplier-manager",
+      "name": "供应商管理",
+      "category": "ecommerce",
+      "description": "供应商管理功能",
+      "rating": "4.4",
+      "downloads": 7186,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install supplier-manager",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/23",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "warehouse-management",
+      "name": "仓储管理",
+      "category": "ecommerce",
+      "description": "仓储管理功能",
+      "rating": "4.0",
+      "downloads": 5353,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install warehouse-management",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/24",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "after-sales-service",
+      "name": "售后服务",
+      "category": "ecommerce",
+      "description": "售后服务功能",
+      "rating": "4.8",
+      "downloads": 6914,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install after-sales-service",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/25",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "membership-system",
+      "name": "会员系统",
+      "category": "ecommerce",
+      "description": "会员系统功能",
+      "rating": "4.8",
+      "downloads": 1168,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install membership-system",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/26",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "multi-store-manager",
+      "name": "多店铺管理",
+      "category": "ecommerce",
+      "description": "多店铺管理功能",
+      "rating": "4.6",
+      "downloads": 19202,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install multi-store-manager",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/27",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "order-printing",
+      "name": "订单打印",
+      "category": "ecommerce",
+      "description": "订单打印功能",
+      "rating": "5.0",
+      "downloads": 11856,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install order-printing",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/28",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "coupon-manager",
+      "name": "优惠券管理",
+      "category": "ecommerce",
+      "description": "优惠券管理功能",
+      "rating": "4.3",
+      "downloads": 6417,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "电商",
+        "运营"
+      ],
+      "installReason": "提高电商运营效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install coupon-manager",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/29",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    }
+  ]
+}

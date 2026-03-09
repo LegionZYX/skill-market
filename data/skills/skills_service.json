@@ -1,0 +1,673 @@
+{
+  "category": "service",
+  "categoryName": "客户服务",
+  "icon": "💬",
+  "count": 20,
+  "sourceStatistics": {
+    "existing": 0,
+    "native": 0,
+    "concept": 20
+  },
+  "skills": [
+    {
+      "id": "service-skill-1",
+      "name": "客户服务技能1",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.2",
+      "downloads": 9702,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-1",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1250",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-2",
+      "name": "客户服务技能2",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "5.0",
+      "downloads": 20282,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-2",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1251",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-3",
+      "name": "客户服务技能3",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.5",
+      "downloads": 15804,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-3",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1252",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-4",
+      "name": "客户服务技能4",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "5.0",
+      "downloads": 2610,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-4",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1253",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-5",
+      "name": "客户服务技能5",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.4",
+      "downloads": 18052,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-5",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1254",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-6",
+      "name": "客户服务技能6",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.3",
+      "downloads": 3786,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-6",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1255",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-7",
+      "name": "客户服务技能7",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.2",
+      "downloads": 10941,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-7",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1256",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-8",
+      "name": "客户服务技能8",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.4",
+      "downloads": 2843,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-8",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1257",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-9",
+      "name": "客户服务技能9",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.4",
+      "downloads": 3653,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-9",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1258",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-10",
+      "name": "客户服务技能10",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.5",
+      "downloads": 6979,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-10",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1259",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-11",
+      "name": "客户服务技能11",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.5",
+      "downloads": 12662,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-11",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1260",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-12",
+      "name": "客户服务技能12",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.9",
+      "downloads": 13726,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-12",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1261",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-13",
+      "name": "客户服务技能13",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.9",
+      "downloads": 8553,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-13",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1262",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-14",
+      "name": "客户服务技能14",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.4",
+      "downloads": 10670,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-14",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1263",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-15",
+      "name": "客户服务技能15",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.6",
+      "downloads": 20844,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-15",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1264",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-16",
+      "name": "客户服务技能16",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.1",
+      "downloads": 14786,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-16",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1265",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-17",
+      "name": "客户服务技能17",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.8",
+      "downloads": 4606,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-17",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1266",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-18",
+      "name": "客户服务技能18",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.4",
+      "downloads": 14494,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-18",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1267",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-19",
+      "name": "客户服务技能19",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.6",
+      "downloads": 7107,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-19",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1268",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "service-skill-20",
+      "name": "客户服务技能20",
+      "category": "service",
+      "description": "客户服务相关功能",
+      "rating": "4.1",
+      "downloads": 16498,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "service",
+        "技能"
+      ],
+      "installReason": "提高客户服务效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install service-skill-20",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1269",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    }
+  ]
+}

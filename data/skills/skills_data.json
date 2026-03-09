@@ -1,0 +1,673 @@
+{
+  "category": "data",
+  "categoryName": "数据分析",
+  "icon": "📊",
+  "count": 20,
+  "sourceStatistics": {
+    "existing": 0,
+    "native": 0,
+    "concept": 20
+  },
+  "skills": [
+    {
+      "id": "data-skill-1",
+      "name": "数据分析技能1",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.3",
+      "downloads": 4756,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-1",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1100",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-2",
+      "name": "数据分析技能2",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.2",
+      "downloads": 2847,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-2",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1101",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-3",
+      "name": "数据分析技能3",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.8",
+      "downloads": 10619,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-3",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1102",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-4",
+      "name": "数据分析技能4",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.2",
+      "downloads": 1411,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-4",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1103",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-5",
+      "name": "数据分析技能5",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.3",
+      "downloads": 4627,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-5",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1104",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-6",
+      "name": "数据分析技能6",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.6",
+      "downloads": 3459,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-6",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1105",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-7",
+      "name": "数据分析技能7",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.4",
+      "downloads": 5691,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-7",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1106",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-8",
+      "name": "数据分析技能8",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.4",
+      "downloads": 13088,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-8",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1107",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-9",
+      "name": "数据分析技能9",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.6",
+      "downloads": 6408,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-9",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1108",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-10",
+      "name": "数据分析技能10",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.6",
+      "downloads": 18726,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-10",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1109",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-11",
+      "name": "数据分析技能11",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.5",
+      "downloads": 4062,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-11",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1110",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-12",
+      "name": "数据分析技能12",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.3",
+      "downloads": 19073,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-12",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1111",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-13",
+      "name": "数据分析技能13",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.7",
+      "downloads": 5004,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-13",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1112",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-14",
+      "name": "数据分析技能14",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.5",
+      "downloads": 20697,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-14",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1113",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-15",
+      "name": "数据分析技能15",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.8",
+      "downloads": 17744,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-15",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1114",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-16",
+      "name": "数据分析技能16",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.8",
+      "downloads": 9858,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-16",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1115",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-17",
+      "name": "数据分析技能17",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.9",
+      "downloads": 15865,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-17",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1116",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-18",
+      "name": "数据分析技能18",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.2",
+      "downloads": 20389,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-18",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1117",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-19",
+      "name": "数据分析技能19",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.9",
+      "downloads": 5501,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-19",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1118",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "data-skill-20",
+      "name": "数据分析技能20",
+      "category": "data",
+      "description": "数据分析相关功能",
+      "rating": "4.2",
+      "downloads": 5065,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "data",
+        "技能"
+      ],
+      "installReason": "提高数据分析效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install data-skill-20",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1119",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    }
+  ]
+}

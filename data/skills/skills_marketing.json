@@ -1,0 +1,838 @@
+{
+  "category": "marketing",
+  "categoryName": "营销推广",
+  "icon": "📢",
+  "count": 25,
+  "sourceStatistics": {
+    "existing": 0,
+    "native": 0,
+    "concept": 25
+  },
+  "skills": [
+    {
+      "id": "marketing-skill-1",
+      "name": "营销推广技能1",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.3",
+      "downloads": 15562,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-1",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1190",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-2",
+      "name": "营销推广技能2",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "5.0",
+      "downloads": 12080,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-2",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1191",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-3",
+      "name": "营销推广技能3",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.2",
+      "downloads": 2140,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-3",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1192",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-4",
+      "name": "营销推广技能4",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.3",
+      "downloads": 17614,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-4",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1193",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-5",
+      "name": "营销推广技能5",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.5",
+      "downloads": 17439,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-5",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1194",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-6",
+      "name": "营销推广技能6",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.7",
+      "downloads": 19955,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-6",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1195",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-7",
+      "name": "营销推广技能7",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.4",
+      "downloads": 8937,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-7",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1196",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-8",
+      "name": "营销推广技能8",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.1",
+      "downloads": 11307,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-8",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1197",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-9",
+      "name": "营销推广技能9",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.0",
+      "downloads": 13288,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-9",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1198",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-10",
+      "name": "营销推广技能10",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.4",
+      "downloads": 3003,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-10",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1199",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-11",
+      "name": "营销推广技能11",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.8",
+      "downloads": 12532,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-11",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1200",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-12",
+      "name": "营销推广技能12",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.7",
+      "downloads": 12410,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-12",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1201",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-13",
+      "name": "营销推广技能13",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.1",
+      "downloads": 14510,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-13",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1202",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-14",
+      "name": "营销推广技能14",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.9",
+      "downloads": 10218,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-14",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1203",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-15",
+      "name": "营销推广技能15",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.4",
+      "downloads": 3785,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-15",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1204",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-16",
+      "name": "营销推广技能16",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.2",
+      "downloads": 14035,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-16",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1205",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-17",
+      "name": "营销推广技能17",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.3",
+      "downloads": 5216,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-17",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1206",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-18",
+      "name": "营销推广技能18",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.3",
+      "downloads": 5597,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-18",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1207",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-19",
+      "name": "营销推广技能19",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.2",
+      "downloads": 14296,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-19",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1208",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-20",
+      "name": "营销推广技能20",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.4",
+      "downloads": 17283,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-20",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1209",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-21",
+      "name": "营销推广技能21",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "5.0",
+      "downloads": 14237,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-21",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1210",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-22",
+      "name": "营销推广技能22",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "5.0",
+      "downloads": 13920,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-22",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1211",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-23",
+      "name": "营销推广技能23",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.0",
+      "downloads": 13351,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-23",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1212",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-24",
+      "name": "营销推广技能24",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.2",
+      "downloads": 9370,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-24",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1213",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    },
+    {
+      "id": "marketing-skill-25",
+      "name": "营销推广技能25",
+      "category": "marketing",
+      "description": "营销推广相关功能",
+      "rating": "4.0",
+      "downloads": 7719,
+      "price": 0,
+      "native": null,
+      "tags": [
+        "marketing",
+        "技能"
+      ],
+      "installReason": "提高营销推广效率",
+      "useCases": [
+        "功能1",
+        "功能2",
+        "功能3",
+        "功能4"
+      ],
+      "installCommand": "npx openclaw-skills@latest install marketing-skill-25",
+      "source": {
+        "type": "concept",
+        "repository": null,
+        "author": "OpenClaw Community",
+        "license": "MIT",
+        "status": "planned",
+        "reference": "https://github.com/openclaw/skills/issues/1214",
+        "note": "计划中的技能，欢迎社区贡献"
+      },
+      "lastUpdated": "2026-03-09",
+      "version": "1.0.0"
+    }
+  ]
+}
