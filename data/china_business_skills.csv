@@ -1,0 +1,54 @@
+id,name,category,category_name,platform,needs_api,source
+lark-calendar,飞书日程管理,office,办公协作,飞书,true,https://clawdhub.com/skills/lark-calendar
+dingtalk-attendance,钉钉考勤统计,office,办公协作,钉钉,true,https://clawdhub.com/skills/dingtalk-attendance
+meeting-notes,会议纪要助手,office,办公协作,飞书,false,https://clawdhub.com/skills/meeting-notes
+document-collaboration,文档协作,office,办公协作,飞书,true,https://clawdhub.com/skills/document-collaboration
+online-whiteboard,在线白板,office,办公协作,飞书,true,https://clawdhub.com/skills/online-whiteboard
+reminder-bot,提醒机器人,office,办公协作,飞书,true,https://clawdhub.com/skills/reminder-bot
+workflow-automation,工作流自动化,office,办公协作,飞书,true,https://clawdhub.com/skills/workflow-automation
+taobao-product-manager,淘宝商品管理,ecommerce,电商运营,淘宝,true,https://clawdhub.com/skills/taobao-product-manager
+jd-order-processor,京东订单处理,ecommerce,电商运营,京东,true,https://clawdhub.com/skills/jd-order-processor
+douyin-ecommerce,抖音电商运营,ecommerce,电商运营,抖音,true,https://clawdhub.com/skills/douyin-ecommerce
+pinduoduo-ops,拼多多运营,ecommerce,电商运营,拼多多,true,https://clawdhub.com/skills/pinduoduo-ops
+inventory-manager,库存管理系统,ecommerce,电商运营,多平台,false,https://clawdhub.com/skills/inventory-manager
+mcd-cn,麦当劳中国优惠券助手,ecommerce,电商运营,麦当劳,true,https://clawdhub.com/skills/mcd-cn
+content-creator,内容创作助手,content,内容生成,通用,false,https://clawdhub.com/skills/content-creator
+youtube-summarizer,YouTube视频摘要,content,内容生成,YouTube,false,https://clawdhub.com/skills/youtube-summarizer
+youtube-title-generator,YouTube标题生成器,content,内容生成,YouTube,false,https://clawdhub.com/skills/youtube-title-generator
+ai-avatar-generation,AI头像生成,content,内容生成,通用,true,https://clawdhub.com/skills/ai-avatar-generation
+ai-headshot-generation,AI商务头像生成,content,内容生成,通用,true,https://clawdhub.com/skills/ai-headshot-generation
+ai-video-gen,AI视频生成,content,内容生成,通用,true,https://clawdhub.com/skills/ai-video-gen
+elevenlabs-music,AI音乐生成,content,内容生成,ElevenLabs,true,https://clawdhub.com/skills/elevenlabs-music
+smart-customer-service,智能客服,service,客户服务,通用,false,https://clawdhub.com/skills/smart-customer-service
+ticket-manager,工单管理系统,service,客户服务,通用,false,https://clawdhub.com/skills/ticket-manager
+faq-generator,FAQ自动生成,service,客户服务,通用,false,https://clawdhub.com/skills/faq-generator
+report-generator,报表生成器,data,数据分析,通用,false,https://clawdhub.com/skills/report-generator
+data-visualization,数据可视化,data,数据分析,通用,false,https://clawdhub.com/skills/data-visualization
+excel-weekly-dashboard,Excel周报仪表板生成,data,数据分析,Excel,false,https://clawdhub.com/skills/excel-weekly-dashboard
+wechat-mp-manager,公众号管理,marketing,营销推广,微信,true,https://clawdhub.com/skills/wechat-mp-manager
+douyin-ops,抖音运营助手,marketing,营销推广,抖音,true,https://clawdhub.com/skills/douyin-ops
+postiz,社交媒体调度,marketing,营销推广,多平台,true,https://clawdhub.com/skills/postiz
+typefully,社交媒体内容管理,marketing,营销推广,多平台,true,https://clawdhub.com/skills/typefully
+resume-screener,简历筛选,hr,人力资源,通用,false,https://clawdhub.com/skills/resume-screener
+resume-optimizer,简历优化器,hr,人力资源,通用,false,https://clawdhub.com/skills/resume-optimizer
+linkedin-job-application,LinkedIn职位申请自动化,hr,人力资源,LinkedIn,true,https://clawdhub.com/skills/linkedin-job-application
+invoice-ocr,发票识别,finance,财务管理,通用,true,https://clawdhub.com/skills/invoice-ocr
+pdf-form-filler,PDF表单填写工具,finance,财务管理,通用,false,https://clawdhub.com/skills/pdf-form-filler
+code-reviewer,代码审查,devops,开发运维,通用,false,https://clawdhub.com/skills/code-reviewer
+ci-pipeline,CI流水线,devops,开发运维,通用,false,https://clawdhub.com/skills/ci-pipeline
+github-kb,GitHub知识库,devops,开发运维,GitHub,true,https://clawdhub.com/skills/github-kb
+github-pr,GitHub PR工具,devops,开发运维,GitHub,true,https://clawdhub.com/skills/github-pr
+perplexity-sonar,Perplexity AI搜索,search,搜索与研究,Perplexity,true,https://clawdhub.com/skills/perplexity-sonar
+tavily,Tavily AI搜索,search,搜索与研究,Tavily,true,https://clawdhub.com/skills/tavily
+serpapi,SerpAPI搜索,search,搜索与研究,Google,true,https://clawdhub.com/skills/serpapi
+local-whisper,本地Whisper转录,speech,语音处理,本地,false,https://clawdhub.com/skills/local-whisper
+faster-whisper,Faster Whisper本地语音识别,speech,语音处理,本地,false,https://clawdhub.com/skills/faster-whisper
+mlx-whisper,MLX Whisper,speech,语音处理,Apple Silicon,false,https://clawdhub.com/skills/mlx-whisper
+second-brain,第二大脑知识库,knowledge,知识管理,通用,false,https://clawdhub.com/skills/second-brain
+notebook,Notebook知识库,knowledge,知识管理,通用,false,https://clawdhub.com/skills/notebook
+gno,本地文档智能搜索,knowledge,知识管理,本地,false,https://clawdhub.com/skills/gno
+qmd,QMD搜索,knowledge,知识管理,本地,false,https://clawdhub.com/skills/qmd
+12306,中国铁路12306查询,transport,交通出行,12306,true,https://clawdhub.com/skills/12306
+pdf-form-filler,PDF表单填写工具,pdf,PDF处理,通用,false,https://clawdhub.com/skills/pdf-form-filler
+mineru-pdf-parser,MinerU PDF解析,pdf,PDF处理,本地,false,https://clawdhub.com/skills/mineru-pdf-parser
+pymupdf-pdf-parser,PyMuPDF PDF解析,pdf,PDF处理,本地,false,https://clawdhub.com/skills/pymupdf-pdf-parser
